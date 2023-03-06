@@ -3,13 +3,13 @@ title: Teaching
 layout: default
 ---
 
-# Currently Teaching
+## Currently Teaching
 
 - University of Toronto
   - ESC 190 Data Structures and Algorithm (TA 2023W)
 
 
-# Previous Teaching
+## Previous Teaching
 
 - University of Toronto
   - ESC 180/190 Introduction to Computer Programming, Data Structures and Algorithm (TA 2022F - 2023W)

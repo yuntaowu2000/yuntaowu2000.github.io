@@ -3,7 +3,7 @@ title: Projects & Work Experience
 layout: default
 ---
 
-# Work Experience
+## Work Experience
 
 - Software Developer Intern @ [Unity Technologies](https://unity.com/)(2022 May - 2022 August)
   - Developed an interactivity AR project ([GUM](https://create.unity.com/gum)) in an agile team. Search #playwithgum for videos created by this app.
@@ -17,7 +17,7 @@ layout: default
   - [GeoVR](https://eml.ubc.ca/projects/geography-vr/)
   - [Interactive Orchestra](https://eml.ubc.ca/projects/interactive-orchestra/)
 
-# Projects
+## Projects
 - [Analysis and simulation of The Lady in the Lake problem](https://github.com/yuntaowu2000/RL-training)
   - Course Project for ECE1657 @ University of Toronto.
   - Simulated using Unity with [Unity ML](https://unity.com/products/machine-learning-agents).

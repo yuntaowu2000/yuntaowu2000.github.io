@@ -3,19 +3,19 @@ title: Home
 layout: default
 ---
 
-# About me
+## About me
 
 I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub). I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
 
 My [Github](https://github.com/yuntaowu2000), [LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US).
 
-## Education
+### Education
 - MASc in Computer Engineering, University of Toronto (Expected 2024)
   - GPA: 4.0/4.0
 - BASc in Computer Engineering, minor in Honors Mathematics, University of British Columbia (2022)
   - GPA: 91.8/100
 
-### Main Scholarships & Awards
+#### Main Scholarships & Awards
 - University of Toronto
   - Queen Elizabeth II Graduate Scholarship in Science & Technology (2022)
   - Edward S. Rogers Sr. Graduate Scholarships (2022)
@@ -28,7 +28,7 @@ My [Github](https://github.com/yuntaowu2000), [LinkedIn](https://www.linkedin.co
   - EXPO 86 Scholarship (2019W)
   - PMC-Sierra Founders Award in Electrical and Computer Engineering (2019W)
 
-### Courses taken (selected)
+#### Courses taken (selected)
 - University of Toronto
   - ECE 1505 Convex Optimization (A)
   - ECE 1657 Game Theory and Evolutionary Games (A+)
