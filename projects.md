@@ -5,10 +5,10 @@ layout: default
 
 ## Work Experience
 
-- Software Developer Intern @ [Unity Technologies](https://unity.com/)(2022 May - 2022 August)
+- Software Developer Intern @ [Unity Technologies](https://unity.com/) (2022 May - 2022 August)
   - Developed an interactivity AR project ([GUM](https://create.unity.com/gum)) in an agile team. Search #playwithgum for videos created by this app.
     - I mainly worked on tutorial features and body tracking service integration.
-  - Participated as a release manager of a milestone build using UCB([Unity gaming service](https://unity.com/solutions/gaming-services)). Configured production, staging and testing DNS routing using [Terraform](https://www.terraform.io/).
+  - Participated as a release manager of a milestone build using UCB ([Unity gaming service](https://unity.com/solutions/gaming-services)). Configured production, staging and testing DNS routing using [Terraform](https://www.terraform.io/).
   - Contributed to IET (In editor tutorial) that is used in Unity sample and learning (FPS/Karting/LEGO microgame). This IET template helps developers to get familiar with Unity engine and ~353k users used IET in H1 2022.
 - Research Assistant @ [UBC BAR Lab](https://barlab.psych.ubc.ca/) (2021 May - 2022 Apr)
   - Developed Unity VR/WebXR projects for research in cognitive-behavioral testing.
