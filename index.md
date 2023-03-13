@@ -32,7 +32,7 @@ My [Github](https://github.com/yuntaowu2000), [LinkedIn](https://www.linkedin.co
 - University of Toronto
   - ECE 1505 Convex Optimization (A)
   - ECE 1657 Game Theory and Evolutionary Games (A+)
-    - [Course project]((https://github.com/yuntaowu2000/RL-training))
+    - [Course project](https://github.com/yuntaowu2000/RL-training)
 - University of British Columbia
   - EECE 571S Introduction to Quantum Computing (A+)
     - Graduate level course taken as an undergraduate student.
