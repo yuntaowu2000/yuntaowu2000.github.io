@@ -18,4 +18,5 @@ layout: default
   - CPEN 331 Operating Systems (TA 2021W)
   - CPEN 221 Principles of Software Construction (TA 2020W & 2021W)
   - MATH 120/121 Honors Differential/Integral Calculus (TA 2020W & 2021W)
+  - MATH 105 Integral Calculus with Applications to Commerce and Social Sciences (TA 2021W)
   - MATH 100 Differential Calculus with Applications to Physical Sciences and Engineering (TA 2020W)
