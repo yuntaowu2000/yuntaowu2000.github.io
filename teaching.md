@@ -5,9 +5,7 @@ layout: default
 
 ## Currently Teaching
 
-- University of Toronto
-  - ESC 190 Data Structures and Algorithm (TA 2023W)
-
+- None for summer
 
 ## Previous Teaching
 
