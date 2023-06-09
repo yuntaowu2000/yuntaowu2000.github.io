@@ -5,9 +5,9 @@ layout: default
 
 ## About me
 
-I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub). I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
+I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
 
-My [Github](https://github.com/yuntaowu2000), [LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US).
+My [Github](https://github.com/yuntaowu2000){:target="_blank"}, [LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US){:target="_blank"}.
 
 ### Education
 - MASc in Computer Engineering, University of Toronto (Expected 2024)
