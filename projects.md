@@ -4,8 +4,14 @@ layout: default
 ---
 
 ## Work Experience
-
-- Software Developer Intern @ [Unity Technologies](https://unity.com/){:target="_blank"} (2022 May - 2022 August)
+- Research & Developer @ [Extropolis](https://extropolis.ai/){:target="_blank"} (2023 Jan - Current)
+  - Develop backend for [ChatAF](https://extropolis.ai/chataf/){:target="_blank"}
+    - [OpenAI](https://openai.com/){:target="_blank"} GPT-3.5/GPT-4 and LLM toolchain (e.g. [Langchain](https://docs.langchain.com/docs/){:target="_blank"}) prompting.
+    - Develop function call plugins (web/news search, local search, long/short-term conversational memory) to be released.
+    - [Railway](https://railway.app/){:target="_blank"} deployment for production/staging/development.
+    - Server stress testing.
+    - GitHub CI unit testing and deployment.
+- Software Developer Intern @ [Unity Technologies](https://unity.com/){:target="_blank"} (2022 May - 2022 Aug)
   - Developed an interactivity AR project ([GUM](https://create.unity.com/gum){:target="_blank"}) in an agile team. Search #playwithgum for videos created by this app.
     - I mainly worked on tutorial features and body tracking service integration.
   - Participated as a release manager of a milestone build using UCB ([Unity gaming service](https://unity.com/solutions/gaming-services){:target="_blank"}). Configured production, staging and testing DNS routing using [Terraform](https://www.terraform.io/){:target="_blank"}.
@@ -25,6 +31,7 @@ layout: default
   - Chinese fan website for the game series: [The Legend of Heroes Kiseki/英雄伝説 軌跡シリーズ](https://www.falcom.co.jp/kiseki/){:target="_blank"}
   - Developed [Chinese version of 3D interactive world map](https://github.com/yuntaowu2000/TrailsMap){:target="_blank"} using Unity.
   - [Game World Rebuild](https://github.com/yuntaowu2000/KisekiWorldRebuild){:target="_blank"} using Unity.
+  - Maintain and develop plugins for [story plot transcripts](https://book.trails-game.com/){:target="_blank"} using jQuery.
   - [Web Quiz](https://github.com/yuntaowu2000/trails-quiz){:target="_blank"}, [3D relation graph](https://github.com/trails-game/relation-graph-3d-force){:target="_blank"} and [LGC Calculator for Kuro no kiseki](https://github.com/yuntaowu2000/kuro-calculator){:target="_blank"} using Javascript, Node.js & Python.
   - [All other tools](https://github.com/yuntaowu2000/trails-games-tools){:target="_blank"} using Python.
 - [Quizzical](https://github.com/yuntaowu2000/CPEN321-Quizzical){:target="_blank"}
@@ -32,3 +39,7 @@ layout: default
   - A platform for teachers to build quizzes for students and track student progress.
   - Frontend: Java.
   - Backend: Node.js, MongoDB.
+
+## Misc
+
+My [Bilibili](https://space.bilibili.com/392143020){:target="_blank"} includes some of the video demos for projects related to Trails-Game. (Chinese only)
