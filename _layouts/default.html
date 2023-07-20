@@ -5,25 +5,38 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var url = window.location.href;
+            $('nav a').each(function() {
+                if (url == (this.href)) {
+                    $(this).addClass('current');
+                } else {
+                    $(this).removeClass('current');
+                }
+            });
+        });
+    </script>
 {% seo %}
     {% include head-custom.html %}
   </head>
 
   <body>
-    <center>
-      <nav>
-        <a href="/">Home</a>
-        <a href="teaching">Teaching</a>
-        <a href="research">Research</a>
-        <a href="projects">Projects & Work Exp</a>
-      </nav>
-    </center>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1 id="page_title">{{ page.title | default: site.github.repository_name }}</h1>
+          <!-- <h1 id="page_title">{{ page.title | default: site.github.repository_name }}</h1> -->
+          <center>
+            <nav>
+              <a href="/"><i class="fa-solid fa-house"></i> Home</a>
+              <a href="teaching"><i class="fa-solid fa-chalkboard-user"></i> Teaching</a>
+              <a href="research"><i class="fa-solid fa-book-open"></i> Research</a>
+              <a href="projects"><i class="fa-solid fa-diagram-project"></i> Projects & Work Exp</a>
+            </nav>
+          </center>
         </header>
     </div>
 
@@ -37,9 +50,9 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">Maintained by {{site.title}} (<a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a>)</p>
-        {% endif %}
+        <!-- {% if site.github.is_project_page %} -->
+        <p class="copyright">Maintained by {{site.title}} <a href="{{ site.github.owner_url }}" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp; <a href="https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US" target="_blank"><i class="fa-brands fa-linkedin"></i></a> &nbsp; <a href="https://space.bilibili.com/392143020" target="_blank"><i class="fa-brands fa-bilibili"></i></a></p>
+        <!-- {% endif %} -->
         <p>Published with <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
       </footer>
     </div>

@@ -7,15 +7,15 @@ layout: default
 
 My name is Yuntao (Winston) Wu. I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
 
-My [Github](https://github.com/yuntaowu2000){:target="_blank"}, [LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US){:target="_blank"}.
+My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US){:target="_blank"}.
 
-### Education
+### <i class="fa-solid fa-graduation-cap"></i> Education 
 - MASc in Computer Engineering, University of Toronto (Expected 2024)
   - GPA: 4.0/4.0
 - BASc in Computer Engineering, minor in Honors Mathematics, University of British Columbia (2022)
   - GPA: 91.8/100
 
-#### Main Scholarships & Awards
+#### <i class="fa-solid fa-award"></i> Main Scholarships & Awards
 - University of Toronto
   - Queen Elizabeth II Graduate Scholarship in Science & Technology (2022)
   - Edward S. Rogers Sr. Graduate Scholarships (2022)
@@ -28,7 +28,7 @@ My [Github](https://github.com/yuntaowu2000){:target="_blank"}, [LinkedIn](https
   - EXPO 86 Scholarship (2019W)
   - PMC-Sierra Founders Award in Electrical and Computer Engineering (2019W)
 
-#### Courses taken with notes & projects (selected)
+#### <i class="fa-solid fa-book"></i> Courses taken with notes & projects (selected)
 <details>
     <summary>University of Toronto</summary>
 <ul>
@@ -42,8 +42,8 @@ My [Github](https://github.com/yuntaowu2000){:target="_blank"}, [LinkedIn](https
 
 <details>
     <summary>University of British Columbia</summary>
-
-<strong>Note: </strong> The format of notes may vary from year to year as I organized them. Not all courses/notes I have taken are included here. The course contents might have changed from the year I took them.
+<div class="alert alert-warning" role="alert"><i class="fa fa-warning"></i> <strong>Note: </strong>The format of notes may vary from year to year as I organized them. Not all courses/notes I have taken are included here. The course contents might have changed from the year I took them.</div>
+<br />
 
 <ul>
 <li><strong>ECE/CS:</strong>
