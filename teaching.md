@@ -5,7 +5,7 @@ layout: default
 
 ## Currently Teaching
 
-- None for summer
+- ECE 345 Algorithms and Data Structures (co-head TA 2023F)
 
 ## Previous Teaching
 

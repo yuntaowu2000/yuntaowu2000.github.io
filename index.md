@@ -5,7 +5,9 @@ layout: default
 
 ## About me
 
+[![profile img](./img/img1.jpg){:align="right" width="20%"}](./img/img2.jpg)
 My name is Yuntao (Winston) Wu. I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
+<br clear="left"/>
 
 My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US){:target="_blank"}.
 
