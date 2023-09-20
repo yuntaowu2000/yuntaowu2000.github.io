@@ -19,6 +19,7 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 
 #### <i class="fa-solid fa-award"></i> Main Scholarships & Awards
 - University of Toronto
+  - Ontario Graduate Scholarship (2023)
   - Queen Elizabeth II Graduate Scholarship in Science & Technology (2022)
   - Edward S. Rogers Sr. Graduate Scholarships (2022)
 - University of British Columbia
@@ -51,6 +52,9 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 <li><strong>ECE/CS:</strong>
 <ul>
   <li>ELEC 201 Circuit Analysis I (A+) <a href="notes/ELEC201.pdf" target="_blank">[Notes]</a></li>
+  <li>CPEN 221 Principles of Software Construction (A) <a href="notes/CPEN221.pdf" target="_blank">[Notes]</a></li>
+  <li>CPSC 221 Basic Algorithms and Data Structures (A+) <a href="notes/CPSC221.pdf" target="_blank">[Notes]</a></li>
+  <li>CPSC 261 Basics of Computer Systems (A+) <a href="notes/CPSC261.pdf" target="_blank">[Notes]</a></li>
   <li>CPEN 321 Software Engineering (A) <a href="https://github.com/yuntaowu2000/CPEN321-Quizzical" target="_blank">[Course Project]</a></li>
   <li>CPEN 331 Operating System (A+)
     <ul>
