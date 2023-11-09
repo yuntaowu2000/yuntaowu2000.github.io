@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+.inner-larger {
+    position: relative; max-width: 75%; padding: 20px 10px; margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .inner-larger { min-width: 320px; max-width: 480px; } }
+@media screen and (max-width: 320px) {
+    .inner-larger { min-width: 240px; max-width: 320px; } }
+
 nav a{
     text-decoration:none;
     color:#ffffff; 

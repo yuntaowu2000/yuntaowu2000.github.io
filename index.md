@@ -21,7 +21,7 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 - University of Toronto
   - Ontario Graduate Scholarship (2023)
   - Queen Elizabeth II Graduate Scholarship in Science & Technology (2022)
-  - Edward S. Rogers Sr. Graduate Scholarships (2022)
+  - Edward S. Rogers Sr. Graduate Scholarships (2022, 2023)
 - University of British Columbia
   - Trek Excellence Scholarship (2019W-2021W)
   - Dean's Distinct (2021W)

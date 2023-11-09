@@ -11,6 +11,19 @@
     <script type="text/javascript" src="/assets/js/lightbox.js"></script>
     <link rel="stylesheet" href="/assets/css/lightbox.css">
     <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+    <script>
         $(document).ready(function() {
             var url = window.location.href;
             $('nav a').each(function() {
@@ -38,7 +51,7 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
+        <header class="inner-larger">
           <!-- <h1 id="page_title">{{ page.title | default: site.github.repository_name }}</h1> -->
           <center>
             <nav>
@@ -53,15 +66,15 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner-larger">
         {{ content }}
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Maintained by {{site.title}} <i class="fa-regular fa-copyright"></i>  &nbsp;  &nbsp;  <a href="{{ site.github.owner_url }}" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp; <a href="https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US" target="_blank"><i class="fa-brands fa-linkedin"></i></a> &nbsp; <a href="https://space.bilibili.com/392143020" target="_blank"><i class="fa-brands fa-bilibili"></i></a></p>
+      <footer class="inner-larger">
+        <p>Maintained by {{site.title}} <i class="fa-regular fa-copyright"></i>  &nbsp;  &nbsp;  <a href="{{ site.github.owner_url }}" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp; <a href="https://www.linkedin.com/in/yuntaowu936a3b179" target="_blank"><i class="fa-brands fa-linkedin"></i></a> &nbsp; <a href="https://space.bilibili.com/392143020" target="_blank"><i class="fa-brands fa-bilibili"></i></a></p>
         <p>Published with <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
       </footer>
     </div>

@@ -6,6 +6,7 @@ layout: default
 ## Currently Teaching
 
 - ECE 345 Algorithms and Data Structures (co-head, Tutorial TA 2023F)
+  - Some background tutorial videos I made are available on [YouTube](https://youtube.com/playlist?list=PL1KqfdF_EfskSucRSsJ7jP0ZLKfBTL31A&si=0_zHzYrPHu6CpVk5){:target="_blank"}.
 - ESC 180 Introduction to Computer Programming (Lab TA 2023F)
 
 ## Previous Teaching

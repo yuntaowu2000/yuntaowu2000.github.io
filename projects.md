@@ -7,7 +7,7 @@ layout: default
 - Research & Developer @ [Extropolis](https://extropolis.ai/){:target="_blank"} (2023 Jan - Current)
   - Develop backend for [ChatAF](https://extropolis.ai/chataf/){:target="_blank"}
     - [OpenAI](https://openai.com/){:target="_blank"} GPT-3.5/GPT-4 and LLM toolchain (e.g. [Langchain](https://docs.langchain.com/docs/){:target="_blank"}) prompting.
-    - Develop function call plugins (web/news search, local search, long/short-term conversational memory) open-source [here](https://github.com/extropolis/ChatBE-plugins){:target="_blank"}.
+    - Develop function call plugins (web/news search, local search, long/short-term conversational memory, file processor, image generation) open-source [here](https://github.com/extropolis/ChatBE-plugins){:target="_blank"}.
     - [Railway](https://railway.app/){:target="_blank"} deployment for production/staging/development.
     - Server stress testing.
     - GitHub CI unit testing and deployment.
@@ -32,7 +32,7 @@ layout: default
 
 <img src="img/logo.png" align="right" width="64px" class="img-right-align"/>
 - [Trails - Game](https://trails-game.com/){:target="_blank"}
-  - Chinese fan website for the game series: [The Legend of Heroes Kiseki/英雄伝説 軌跡シリーズ](https://www.falcom.co.jp/kiseki/){:target="_blank"}
+  - Chinese fan website for the game series: [The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ](https://www.falcom.co.jp/kiseki/){:target="_blank"}
   - Developed [Chinese version of 3D interactive world map](https://github.com/yuntaowu2000/TrailsMap){:target="_blank"} using Unity.
   - [Game World Rebuild](https://github.com/yuntaowu2000/KisekiWorldRebuild){:target="_blank"} using Unity.
   - Maintain and develop plugins for [story plot transcripts](https://book.trails-game.com/){:target="_blank"} using jQuery.
