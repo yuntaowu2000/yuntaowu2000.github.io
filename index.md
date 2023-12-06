@@ -41,6 +41,13 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 <li>ECE 1657 Game Theory and Evolutionary Games (A+) <a href="notes/ECE1657.pdf" target="_blank">[Notes]</a> <a href="https://github.com/yuntaowu2000/RL-training" target="_blank">[Course project]</a></li>
 <li>ECE 1762 Algorithms and Data Structures (A+) <a href="notes/ECE1762.pdf" target="_blank">[Notes]</a></li>
 </ul>
+
+
+Audited courses:  
+<ul>
+<li>MAT 1856 Introduction to Mathematical Finance <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+<li>CSC 2429 Introduction to Quantum Information <a href="notes/CSC2429.pdf" target="_blank">[Notes]</a></li>
+</ul>
 </details>
 
 <details>
@@ -55,7 +62,7 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
   <li>CPEN 221 Principles of Software Construction (A) <a href="notes/CPEN221.pdf" target="_blank">[Notes]</a></li>
   <li>CPSC 221 Basic Algorithms and Data Structures (A+) <a href="notes/CPSC221.pdf" target="_blank">[Notes]</a></li>
   <li>CPSC 261 Basics of Computer Systems (A+) <a href="notes/CPSC261.pdf" target="_blank">[Notes]</a></li>
-  <li>CPEN 321 Software Engineering (A) <a href="https://github.com/yuntaowu2000/CPEN321-Quizzical" target="_blank">[Course Project]</a></li>
+  <li>CPEN 321 Software Engineering (A)  <a href="notes/CPEN321.pdf" target="_blank">[Notes]</a> <a href="https://github.com/yuntaowu2000/CPEN321-Quizzical" target="_blank">[Course Project]</a></li>
   <li>CPEN 331 Operating System (A+)
     <ul>
       <li>OS161</li>
@@ -158,3 +165,13 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 </li>
 </ul>
 </details>
+
+<!-- <details>
+  <summary>Additional Math Courses</summary>
+
+<ul>
+<li>Analysis <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+<li>Differential Forms <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+<li>Algebra <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+</ul>
+</details> -->
