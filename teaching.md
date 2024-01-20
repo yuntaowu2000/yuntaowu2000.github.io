@@ -4,17 +4,18 @@ layout: default
 ---
 
 ## Currently Teaching
-
-- ECE 345 Algorithms and Data Structures (co-head, Tutorial TA 2023F)
-  - Some background tutorial videos I made are available on [YouTube](https://youtube.com/playlist?list=PL1KqfdF_EfskSucRSsJ7jP0ZLKfBTL31A&si=0_zHzYrPHu6CpVk5){:target="_blank"}.
-- ESC 180 Introduction to Computer Programming (Lab TA 2023F)
+- CSC 401/2511 Natural Language Computing (Assignment 1 Head TA 2024W)
+  - Assignment 1: Identifying political affiliations on Reddit using feature based learning and language model.
+- ECE 1762 Algorithms and Data Structures (Head TA 2024W)
+- ESC 190 Computer Algorithms and Data Structures (Lab TA 2024W)
 
 ## Previous Teaching
 
 - University of Toronto
-  - ESC 180 Introduction to Computer Programming (Lab TA 2022F)
-  - ESC 190 Data Structures and Algorithm (Lab TA 2023W)
-  - ECE 345 Algorithms and Data Structures (Grading TA 2022F)
+  - ESC 180 Introduction to Computer Programming (Lab TA 2022F, 2023F)
+  - ESC 190 Computer Algorithms and Data Structures (Lab TA 2023W)
+  - ECE 345 Algorithms and Data Structures (Grading TA 2022F, co-head, Tutorial TA 2023F)
+    - Some background tutorial videos I made are available on [YouTube](https://youtube.com/playlist?list=PL1KqfdF_EfskSucRSsJ7jP0ZLKfBTL31A&si=0_zHzYrPHu6CpVk5){:target="_blank"}.
 - University of British Columbia
   - CPEN 331 Operating Systems (Lab TA 2021W)
   - CPEN 221 Principles of Software Construction (Lab TA 2020W & 2021W)

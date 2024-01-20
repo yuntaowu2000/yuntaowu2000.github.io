@@ -166,12 +166,13 @@ Audited courses:
 </ul>
 </details>
 
-<!-- <details>
-  <summary>Additional Math Courses</summary>
+<details>
+    <summary>Additional Math Courses</summary>
 
 <ul>
-<li>Analysis <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
-<li>Differential Forms <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
-<li>Algebra <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+<li>Analysis <a href="notes/Analysis.pdf" target="_blank">[Notes]</a></li>
+<li>Functional Analysis <a href="notes/Functional-Analysis.pdf" target="_blank">[Notes]</a></li>
+<li>Differential Forms <a href="notes/Differential-Forms.pdf" target="_blank">[Notes]</a></li>
+<li>Algebra <a href="notes/Algebra.pdf" target="_blank">[Notes]</a></li>
 </ul>
-</details> -->
+</details>

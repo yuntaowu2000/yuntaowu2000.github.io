@@ -11,6 +11,11 @@ layout: default
     - [Railway](https://railway.app/){:target="_blank"} deployment for production/staging/development.
     - Server stress testing.
     - GitHub CI unit testing and deployment.
+  - [Diffusitron](https://diffusitron.ai/){:target="_blank"}
+    - Integrate Diffie AI using finetuned/prompt-based GPT in [Diffie Studio](https://app.diffusitron.ai/){:target="_blank"}.
+    - Implement text streaming for chatting functionality, reducing the latency to $\sim$1s.
+    - Implement/Improve various web frontend features with React.js based on designers' and users' feedbacks.
+    - Load balancing using Cloudflare.
 - Software Developer Intern @ [<i class="fa-brands fa-unity"></i> Unity Technologies](https://unity.com/){:target="_blank"} (2022 May - 2022 Aug)
   - Developed an interactivity AR project ([GUM](https://create.unity.com/gum){:target="_blank"}) in an agile team. Search #playwithgum for videos created by this app.
     - I mainly worked on tutorial features and body tracking service integration.
