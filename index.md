@@ -6,13 +6,14 @@ layout: default
 ## About me
 
 [![profile img](./img/img1.jpg){:align="right" width="20%"}](./img/img2.jpg)
-My name is Yuntao (Winston) Wu. I am currently a MASc student in Computer Engineering at University of Toronto, working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a BASc in Computer Engineering, minor in Honors Mathematics.
+My name is Yuntao (Winston) Wu. I am currently a PhD student in Computer Engineering at University of Toronto, advised by [Dr. Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}. I work as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a Bachelor of Applied Science in Computer Engineering, minor in Honors Mathematics.
 <br clear="left"/>
 
-My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179/?locale=en_US){:target="_blank"}.
+My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179){:target="_blank"}.
 
 ### <i class="fa-solid fa-graduation-cap"></i> Education 
-- MASc in Computer Engineering, University of Toronto (Expected 2024)
+- PhD in Computer Engineering, University of Toronto (Expected 2028)
+- MASc in Computer Engineering, University of Toronto (2024)
   - GPA: 4.0/4.0
 - BASc in Computer Engineering, minor in Honors Mathematics, University of British Columbia (2022)
   - GPA: 91.8/100
@@ -36,6 +37,7 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
     <summary>University of Toronto</summary>
 <ul>
 <li>CSC 2125 Blockchain Technology (A+) <a href="notes/CSC2125_Project_Report.pdf" target="_blank">[Course project]</a></li>
+<li>CSC 2401 Introduction to Computational Complexity (B+) <a href="notes/CSC2401.pdf" target="_blank">[Notes]</a></li>
 <li>CSC 2511 Natural Language Computing (A+) <a href="https://www.cs.toronto.edu/~raeidsaqur/csc401/" target="_blank">[Course website]</a></li>
 <li>ECE 1505 Convex Optimization (A) <a href="notes/ECE1505.pdf" target="_blank">[Notes]</a></li>
 <li>ECE 1657 Game Theory and Evolutionary Games (A+) <a href="notes/ECE1657.pdf" target="_blank">[Notes]</a> <a href="https://github.com/yuntaowu2000/RL-training" target="_blank">[Course project]</a></li>
@@ -47,6 +49,7 @@ Audited courses:
 <ul>
 <li>MAT 1856 Introduction to Mathematical Finance <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
 <li>CSC 2429 Introduction to Quantum Information <a href="notes/CSC2429.pdf" target="_blank">[Notes]</a></li>
+<li>MAT 315 Introduction to Number Theory <a href="notes/MAT315.pdf" target="_blank">[Notes]</a></li>
 </ul>
 </details>
 
