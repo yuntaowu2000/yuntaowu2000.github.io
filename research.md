@@ -15,3 +15,7 @@ I am currently working as a research assistant at [Rotman FinHub](https://www.ro
 - Kevin Benson, John Hull, Yoshio Nozawa, Zissis Poulos, Vasily Strela, **Yuntao Wu**, "*Forecasting Using Text-Based Uncertainty Measures*". [[SSRN](https://ssrn.com/abstract=4628516){:target="_blank"}]
 - Charles Martineau, Zissis Poulos, **Yuntao Wu**, Cameron Thompson, Maryam Haghighi, Jun Yuan, John Hull, "*Narrative Monetary Policy Uncertainty*," in Proceedings of selected IFC-sponsored sessions at the 64th World Statistics Congress of the International Statistical Institute (ISI), Ottawa, Canada, July 2023. [[GitHub]()] [[SSRN](https://ssrn.com/abstract=4573829){:target="_blank"}] [[BIS bulletins]()] [[dataset visualization](https://finhub-mu.vercel.app/){:target="_blank"}]
 - Charles Martineau, Zissis Poulos, Bowen Wu, **Yuntao Wu**, "*How important is soft information to price efficiency to following earning announcements*" (in draft) [[GitHub]()]
+
+## Services
+- ProQuest TDM Studio Case Study: Harnessing Machine Learning with News Data for Economic Insights (2023, published in 2024) [[Final Report](https://pq-static-content.proquest.com/collateral/media2/documents/casestudy-tdmstudio-universitytoronto.pdf){:target="_blank"}]
+- IEEE Transactions on Network and Service Management: External Reviewer (2023-2024)
