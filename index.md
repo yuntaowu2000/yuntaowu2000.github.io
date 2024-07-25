@@ -51,6 +51,7 @@ Audited courses:
 <li>MAT 1856 Introduction to Mathematical Finance <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
 <li>CSC 2429 Introduction to Quantum Information <a href="notes/CSC2429.pdf" target="_blank">[Notes]</a></li>
 <li>MAT 315 Introduction to Number Theory <a href="notes/MAT315.pdf" target="_blank">[Notes]</a></li>
+<li>ECO 358 Financial Economics <a href="notes/ECO358.pdf" target="_blank">[Notes]</a></li>
 </ul>
 </details>
 
