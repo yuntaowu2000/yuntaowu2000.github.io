@@ -4,7 +4,10 @@ layout: default
 ---
 
 ## Currently Teaching
-None
+- ESC 180 Introduction to Computer Programming (Lab TA 2024F)
+- ECE 345 Algorithms and Data Structures (Head, Tutorial TA 2024F)
+- CSC 401/2511 Natural Language Computing (Assignment 1 Head TA 2024F)
+  - Assignment 1: Financial Sentiment Analysis (I redesigned the entire assignment for this session.)
 
 ## Previous Teaching
 
@@ -16,7 +19,7 @@ None
     - Final review recorded by some student on [YouTube](https://www.youtube.com/watch?v=7dPjl2V_uoE){:target="_blank"}.
   - ECE 1762 Algorithms and Data Structures (Head TA 2024W)
   - CSC 401/2511 Natural Language Computing (Assignment 1 Head TA 2024W)
-    - Assignment 1: Identifying political affiliations on Reddit using feature based learning and language model.
+    - Assignment 1 (2024W): Identifying political affiliations on Reddit using feature based learning and language model.
 - University of British Columbia
   - CPEN 331 Operating Systems (Lab TA 2021W)
   - CPEN 221 Principles of Software Construction (Lab TA 2020W & 2021W)
