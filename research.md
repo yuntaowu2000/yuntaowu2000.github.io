@@ -9,7 +9,8 @@ I am currently working as a research assistant at [Rotman FinHub](https://www.ro
 
 ## Publications
 - **Yuntao Wu**, Jiayuan Guo, Goutham Gopalakrishna, Zisis Poulos, "*Deep-MacroFin: Informed Equilibrium Neural Network for Continuous Time Economic Models*". [[GitHub](https://github.com/rotmanfinhub/deep-macrofin){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2408.10368){:target="_blank"}]
-- **MASc Thesis**, "*Navigating Market Uncertainty: News Narrative Analysis and Synthetic Volatility Modeling*".
+    - Accepted by SFMES (Simulation of Financial Markets and Economic Systems) Workshop at ICAIF'24. [[Website](https://sites.google.com/view/sfmes/home/accepted-papers?authuser=0){:target="_blank"}] [[Poster](https://drive.google.com/file/d/12fbPzYYWi4Oq4n3BmV23UYopqzqV4uaF/view){:target="_blank"}]
+- **MASc Thesis**, "*Navigating Market Uncertainty: News Narrative Analysis and Synthetic Volatility Modeling*". [[UofT Library](https://hdl.handle.net/1807/139971){:target="_blank"}]
     - Supervisor: [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}
     - Committee: [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}
 - Jacky Chen, John Hull, Zissis Poulos, Haris Rasul, Andreas Veneris, **Yuntao Wu**, "*A Variational Autoencoder Approach to Conditional Generation of Possible Future Volatility Surfaces*". [[SSRN](https://ssrn.com/abstract=4628457){:target="_blank"}]
