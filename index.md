@@ -41,17 +41,20 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 <li>CSC 2401 Introduction to Computational Complexity (B+) <a href="notes/CSC2401.pdf" target="_blank">[Notes]</a></li>
 <li>CSC 2511 Natural Language Computing (A+) <a href="https://www.cs.toronto.edu/~raeidsaqur/csc401/" target="_blank">[Course website]</a></li>
 <li>ECE 1505 Convex Optimization (A) <a href="notes/ECE1505.pdf" target="_blank">[Notes]</a></li>
+<li>ECE 1647 Introduction to Nonlinear Control Systems <a href="notes/ECE1647.pdf" target="_blank">[Notes]</a></li>
 <li>ECE 1657 Game Theory and Evolutionary Games (A+) <a href="notes/ECE1657.pdf" target="_blank">[Notes]</a> <a href="https://github.com/yuntaowu2000/RL-training" target="_blank">[Course project]</a></li>
 <li>ECE 1762 Algorithms and Data Structures (A+) <a href="notes/ECE1762.pdf" target="_blank">[Notes]</a></li>
+<li>MAT 1855 Mathematical Problems in Economics <a href="notes/MAT1855.pdf" target="_blank">[Notes]</a></li>
 </ul>
 
 
 Audited courses:  
 <ul>
-<li>MAT 1856 Introduction to Mathematical Finance <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
 <li>CSC 2429 Introduction to Quantum Information <a href="notes/CSC2429.pdf" target="_blank">[Notes]</a></li>
-<li>MAT 315 Introduction to Number Theory <a href="notes/MAT315.pdf" target="_blank">[Notes]</a></li>
+<li>MAT 1856 Introduction to Mathematical Finance <a href="notes/MAT1856.pdf" target="_blank">[Notes]</a></li>
+<li>STA 2502 Stochastic Models in Investments <a href="notes/STA2502.pdf" target="_blank">[Notes]</a></li>
 <li>ECO 358 Financial Economics <a href="notes/ECO358.pdf" target="_blank">[Notes]</a></li>
+<li>MAT 315 Introduction to Number Theory <a href="notes/MAT315.pdf" target="_blank">[Notes]</a></li>
 </ul>
 </details>
 

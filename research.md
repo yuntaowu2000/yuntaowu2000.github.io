@@ -5,9 +5,11 @@ layout: default
 
 ## Introduction
 
-I am currently working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"} at University of Toronto. My research focus on financial applications of machine learning techniques. To begin with, we employ NLP methodologies to analyze news text and earnings announcements. This approach enables us to quantify market uncertainty and explain post-announcement returns. Secondly, we leverage Variational Auto-Encoders to model the evolutions of implied volatility surfaces and asset prices. 
+I am currently working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"} at University of Toronto. My research focus on financial applications of machine learning techniques. To begin with, we employ NLP methodologies to analyze news text and earnings announcements. This approach enables us to quantify market uncertainty and explain post-announcement returns. Secondly, we leverage Variational Auto-Encoders to model the evolutions of implied volatility surfaces and asset prices. We also integrate deep learning techniques with numerical methods to model equilibrium dynamics of financial markets and wealth share.
 
 ## Publications
+- Goutham Gopalakrishna, **Yuntao Wu**, "*ALIENs for Continuous Time Economies*. [[GitHub](https://github.com/yuntaowu2000/active_learning_paper){:target="_blank"}] [[Draft](./drafts/ALIEN.pdf){:target="_blank"}]
+- Kevin Benson, Ing-Haw Cheng, John Hull, Charles Martineau, Yoshio Nozawa, Vasily Strela, **Yuntao Wu**, Jun Yuan, "*Understanding the Excess Bond Premium*". [[SSRN](https://papers.ssrn.com/abstract=5037810){:target="_blank"}]
 - **Yuntao Wu**, Jiayuan Guo, Goutham Gopalakrishna, Zisis Poulos, "*Deep-MacroFin: Informed Equilibrium Neural Network for Continuous Time Economic Models*". [[GitHub](https://github.com/rotmanfinhub/deep-macrofin){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2408.10368){:target="_blank"}]
     - Accepted by SFMES (Simulation of Financial Markets and Economic Systems) Workshop at ICAIF'24. [[Website](https://sites.google.com/view/sfmes/home/accepted-papers?authuser=0){:target="_blank"}] [[Poster](https://drive.google.com/file/d/12fbPzYYWi4Oq4n3BmV23UYopqzqV4uaF/view){:target="_blank"}]
 - **MASc Thesis**, "*Navigating Market Uncertainty: News Narrative Analysis and Synthetic Volatility Modeling*". [[UofT Library](https://hdl.handle.net/1807/139971){:target="_blank"}]
