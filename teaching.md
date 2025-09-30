@@ -4,7 +4,8 @@ layout: default
 ---
 
 ## Currently Teaching
-- None
+- ECE 345 Algorithms and Data Structures (Head, Tutorial TA 2025F)
+- ESC 180 Introduction to Computer Programming (Lab TA 2025F)
 
 ## Previous Teaching
 
