@@ -21,7 +21,7 @@ My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000)
 #### <i class="fa-solid fa-award"></i> Main Scholarships & Awards
 - University of Toronto
   - ECE Teaching Assistant Award (2023-2024 Excellence in Undergraduate Teaching)
-  - Ontario Graduate Scholarship (2023)
+  - Ontario Graduate Scholarship (2023-2026)
   - Queen Elizabeth II Graduate Scholarship in Science & Technology (2022)
   - Edward S. Rogers Sr. Graduate Scholarships (2022, 2023)
 - University of British Columbia
