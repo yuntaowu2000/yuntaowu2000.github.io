@@ -4,15 +4,16 @@ layout: default
 ---
 
 ## Currently Teaching
-- ECE 345 Algorithms and Data Structures (Head, Tutorial TA 2025F)
-- ESC 180 Introduction to Computer Programming (Lab TA 2025F)
+- CSC 401/2511 Natural Language Computing (Assignment 1 Head TA 2026w)
+- ECE 1762 Algorithms and Data Structures (Head TA 2026W)
+- ESC 190 Computer Algorithms and Data Structures (Lab TA 2026W)
 
 ## Previous Teaching
 
 - University of Toronto
-  - ESC 180 Introduction to Computer Programming (Lab TA 2022F, 2023F, 2024F)
+  - ESC 180 Introduction to Computer Programming (Lab TA 2022F, 2023F, 2024F, 2025F)
   - ESC 190 Computer Algorithms and Data Structures (Lab TA 2023W, 2024W, 2025W)
-  - ECE 345 Algorithms and Data Structures (Grading TA 2022F; co-head, Tutorial TA 2023F; Head, Tutorial TA 2024F)
+  - ECE 345 Algorithms and Data Structures (Grading TA 2022F; co-head, Tutorial TA 2023F; Head, Tutorial TA 2024F, 2025F)
     - Some background tutorial videos I made are available on [YouTube](https://youtube.com/playlist?list=PL1KqfdF_EfskSucRSsJ7jP0ZLKfBTL31A&si=0_zHzYrPHu6CpVk5){:target="_blank"}.
     - Final review recorded by some student on [YouTube](https://www.youtube.com/watch?v=7dPjl2V_uoE){:target="_blank"}.
     - Final review [recording 2024F](https://youtu.be/a2IJYqQh2Dk){:target="_blank"}.
