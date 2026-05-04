@@ -4,7 +4,7 @@ layout: default
 ---
 
 ## Work Experience
-- Research & Developer @ [Extropolis](https://extropolis.ai/){:target="_blank"} (2023 Jan - Current)
+- Research & Developer @ [Extropolis](https://github.com/extropolis){:target="_blank"} (2023 Jan - 2025)
   - Develop backend for [ChatAF](https://extropolis.ai/chataf/){:target="_blank"}
     - [OpenAI](https://openai.com/){:target="_blank"} GPT-3.5/GPT-4 and LLM toolchain (e.g. [Langchain](https://docs.langchain.com/docs/){:target="_blank"}) prompting.
     - Develop function call plugins (web/news search, local search, long/short-term conversational memory, file processor, image generation) open-source [here](https://github.com/extropolis/ChatBE-plugins){:target="_blank"}.
@@ -16,6 +16,7 @@ layout: default
     - Implement text streaming for chatting functionality, reducing the latency to $\sim$1s.
     - Implement/Improve various web frontend features with React.js based on designers' and users' feedbacks.
     - Load balancing using Cloudflare.
+    - [Docs](https://extropolis.github.io/DiffusitronWiki/)
 - Software Developer Intern @ [<i class="fa-brands fa-unity"></i> Unity Technologies](https://unity.com/){:target="_blank"} (2022 May - 2022 Aug)
   - Developed an interactivity AR project ([GUM](https://create.unity.com/gum){:target="_blank"}) in an agile team. Search #playwithgum for videos created by this app.
     - I mainly worked on tutorial features and body tracking service integration.
