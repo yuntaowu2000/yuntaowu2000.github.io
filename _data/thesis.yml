@@ -1,0 +1,10 @@
+degree: "MASc Thesis"
+title: "Navigating Market Uncertainty: News Narrative Analysis and Synthetic Volatility Modeling"
+year: 2024
+links:
+  - name: UofT Library
+    url: "https://hdl.handle.net/1807/139971"
+supervisor: andreas_veneris
+committee:
+  - john_hull
+  - charles_martineau

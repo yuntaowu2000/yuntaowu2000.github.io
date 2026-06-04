@@ -1,0 +1,35 @@
+{% assign category = include.category %}
+{% assign pubs = site.data.publications | where: "category", category %}
+<!-- {% if category == "working_paper" %}
+  {% assign pubs = pubs | sort: "year" | reverse %}
+  {% assign list_class = "publication-list working-paper-list" %}
+  {% assign item_class = "publication-item working-paper-card" %}
+{% else %} -->
+  {% assign pubs = pubs | sort: "year" | reverse %}
+  {% assign list_class = "publication-list" %}
+  {% assign item_class = "publication-item" %}
+<!-- {% endif %} -->
+
+<ol class="{{ list_class }}">
+{% for pub in pubs %}
+  <li class="{{ item_class }}" id="{{ pub.id }}">
+    <p class="publication-entry">
+      {% if pub.date_label %}<span class="publication-year">{{ pub.date_label }}</span> · {% elsif pub.year %}<span class="publication-year">{{ pub.year }}</span> · {% endif %}
+      {% for author in pub.authors %}{% include author.html author=author %}{% unless forloop.last %}, {% endunless %}{% endfor %},
+      <em>"{{ pub.title }}"</em>{% if pub.venue %}. <span class="publication-venue">{{ pub.venue }}</span>{% endif %}.
+    </p>
+    {% if pub.links.size > 0 %}
+    <p class="publication-links">{% include pub-links.html links=pub.links %}</p>
+    {% endif %}
+    {% if pub.notes %}
+    <ul class="publication-notes">
+      {% for note in pub.notes %}
+      <li>
+        {{ note.text }}{% if note.links %} {% include pub-links.html links=note.links %}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>

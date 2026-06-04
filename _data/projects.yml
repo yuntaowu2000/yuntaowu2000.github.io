@@ -1,0 +1,67 @@
+- id: trails-game
+  title: "Trails - Game"
+  url: "https://trails-game.com/"
+  card: true
+  bullets:
+    - text: "Chinese fan website for the game series: The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ"
+      links:
+        - name: The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ
+          url: "https://www.falcom.co.jp/kiseki/"
+    - text: "Developed Chinese version of 3D interactive world map using Unity."
+      links:
+        - name: Chinese version of 3D interactive world map
+          url: "https://github.com/yuntaowu2000/TrailsMap"
+    - text: "Game World Rebuild using Unity."
+      links:
+        - name: Game World Rebuild
+          url: "https://github.com/yuntaowu2000/KisekiWorldRebuild"
+    - text: "Maintain and develop plugins for story plot transcripts using jQuery."
+      links:
+        - name: story plot transcripts
+          url: "https://book.trails-game.com/"
+    - text: "Web Quiz, 3D relation graph and LGC Calculator for Kuro no kiseki using Javascript, Node.js & Python."
+      links:
+        - name: Web Quiz
+          url: "https://github.com/yuntaowu2000/trails-quiz"
+        - name: 3D relation graph
+          url: "https://github.com/trails-game/relation-graph-3d-force"
+        - name: LGC Calculator for Kuro no kiseki
+          url: "https://github.com/yuntaowu2000/kuro-calculator"
+    - text: "All other tools using Python."
+      links:
+        - name: All other tools
+          url: "https://github.com/yuntaowu2000/trails-games-tools"
+  media_float:
+    - type: image_float_right
+      src: "img/logo.png"
+      width: "64px"
+  media:
+    - type: iframe
+      src: "//player.bilibili.com/player.html?aid=985491660&bvid=BV12t4y1L7qX&cid=828676037&page=1&high_quality=1&danmaku=0"
+      max_width: "640px"
+  clear_float: true
+
+- id: lady-in-the-lake
+  title: "Analysis and simulation of The Lady in the Lake problem"
+  url: "https://github.com/yuntaowu2000/RL-training"
+  card: true
+  context: "Course Project for ECE1657 @ University of Toronto."
+  bullets:
+    - text: "Simulated using Unity with Unity ML."
+      links:
+        - name: Unity ML
+          url: "https://unity.com/products/machine-learning-agents"
+  media:
+    - type: image
+      src: "./img/RL.gif"
+      href: "./img/RL.gif"
+
+- id: quizzical
+  title: Quizzical
+  url: "https://github.com/yuntaowu2000/CPEN321-Quizzical"
+  card: true
+  context: "Course Project for CPEN321 @ University of British Columbia."
+  bullets:
+    - text: "A platform for teachers to build quizzes for students and track student progress."
+    - text: "Frontend: Java."
+    - text: "Backend: Node.js, MongoDB."

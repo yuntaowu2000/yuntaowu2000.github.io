@@ -8,22 +8,28 @@ layout: default
 I am currently working as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"} at University of Toronto. My research focus on financial applications of machine learning techniques. To begin with, we employ NLP methodologies to analyze news text and earnings announcements. This approach enables us to quantify market uncertainty and explain post-announcement returns. Secondly, we leverage Variational Auto-Encoders to model the evolutions of implied volatility surfaces and asset prices. We also integrate deep learning techniques with numerical methods to model equilibrium dynamics of financial markets and wealth share.
 
 ## Publications
-- Kevin Benson, [Ing-Haw Cheng](https://inghawcheng.github.io/){:target="_blank"}, Maurice Granger, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}, [Yoshio Nozawa](https://yoshionozawa.github.io/){:target="_blank"}, Vasily Strela, **Yuntao Wu**, Jun Yuan, "*Measuring Price Effects of Multilingual Global News with Large Language Models*". [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5825343){:target="_blank"}]
-- **Yuntao Wu**, Lynn Tao, [Ing-Haw Cheng](https://inghawcheng.github.io/){:target="_blank"}, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}, [Yoshio Nozawa](https://yoshionozawa.github.io/){:target="_blank"}, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, and [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}, "*Aligning Multilingual News for Stock Return Prediction*". In AI for Finance Symposium'25 Workshop at ICAIF'25, November 15, 2025, Singapore. [[arXiv](https://arxiv.org/abs/2510.19203){:target="_blank"}] [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5636031){:target="_blank"}] [[Poster](./presentations/multilingual_alignment.pdf){:target="_blank"}]
-- **Yuntao Wu**, Ege Mert Akin, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}, [Vincent Grégoire](https://www.vincentgregoire.com/){:target="_blank"}, and [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}, "*Extracting the Structure of Press Releases for Predicting Earnings Announcement Returns*". In 6th ACM International Conference on AI in Finance (ICAIF'25), November 15–18, 2025, Singapore. [[arXiv](https://arxiv.org/abs/2509.24254){:target="_blank"}] [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5537559){:target="_blank"}] [[ACM Proceeding](https://dl.acm.org/doi/10.1145/3768292.3770344){:target="_blank"}] [[Poster](./presentations/structure_earnings.pdf){:target="_blank"}]
-- Srisht Fateh Singh, Reina Ke Xin Li, Samuel Gaskin, **Yuntao Wu**, Jeffrey Klinck, Panagiotis Michalopoulos, Zissis Poulos, [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}, "*Modeling Loss-Versus-Rebalancing in Automated Market Makers via Continuous-Installment Options*". In 7th Conference on Advances in Financial Technologies (AFT 2025), October 7-10, 2025. [[arXiv](https://arxiv.org/abs/2508.02971){:target="_blank"}] [[LIPIcs](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.6)]  
-- [Goutham Gopalakrishna](https://goutham-atwork.github.io/){:target="_blank"}, **Yuntao Wu**, "*ALIENs for Continuous Time Economies*". [[GitHub](https://github.com/yuntaowu2000/active_learning_paper){:target="_blank"}] [[SSRN](https://papers.ssrn.com/abstract=3848657){:target="_blank"}]
-- Kevin Benson, [Ing-Haw Cheng](https://inghawcheng.github.io/){:target="_blank"}, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}, [Yoshio Nozawa](https://yoshionozawa.github.io/){:target="_blank"}, Vasily Strela, **Yuntao Wu**, Jun Yuan, "*The Attention-Based Excess Bond Premium*". [[SSRN](https://papers.ssrn.com/abstract=5037810){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2412.04063){:target="_blank"}]
-- **Yuntao Wu**, Jiayuan Guo, [Goutham Gopalakrishna](https://goutham-atwork.github.io/){:target="_blank"}, Zisis Poulos, "*Deep-MacroFin: Informed Equilibrium Neural Network for Continuous Time Economic Models*", The Journal of Financial Data Science, vol. 8 (2), pp. 97-128, Apr. 2026. [[JFDS](https://www.pm-research.com/content/iijjfds/8/2/97){:target="_blank"}] [[JFDS Snapshots](https://www.pm-research.com/content/iijpracapp/early/2026/04/30/snp2026jfds004){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2408.10368){:target="_blank"}]
-    - Accepted by SFMES (Simulation of Financial Markets and Economic Systems) Workshop at ICAIF'24. [[Website](https://sites.google.com/view/sfmes/home/accepted-papers?authuser=0){:target="_blank"}] [[Poster](https://drive.google.com/file/d/12fbPzYYWi4Oq4n3BmV23UYopqzqV4uaF/view){:target="_blank"}]
-    - More experiments in the paper are in [this GitHub Repo](https://github.com/yuntaowu2000/deep_macrofin_paper){:target="_blank"}
-- **MASc Thesis**, "*Navigating Market Uncertainty: News Narrative Analysis and Synthetic Volatility Modeling*". [[UofT Library](https://hdl.handle.net/1807/139971){:target="_blank"}]
-    - Supervisor: [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}
-    - Committee: [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}
-- Jacky Chen, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, Zissis Poulos, Haris Rasul, [Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}, **Yuntao Wu**, "*A Variational Autoencoder Approach to Conditional Generation of Possible Future Volatility Surfaces*", The Journal of Financial Data Science, vol. 7 (3), pp. 86–114, Jul. 2025. [[JFDS](https://www.pm-research.com/content/iijjfds/7/3/86){:target="_blank"}] [[Paper](./drafts/VAE.pdf)]
-- Kevin Benson, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, [Yoshio Nozawa](https://yoshionozawa.github.io/){:target="_blank"}, Zissis Poulos, Vasily Strela, **Yuntao Wu**, "*Forecasting Using Text-Based Uncertainty Measures*". [[SSRN](https://ssrn.com/abstract=4628516){:target="_blank"}]
-- [Charles Martineau](https://www.charlesmartineau.com/){:target="_blank"}, Zissis Poulos, **Yuntao Wu**, Cameron Thompson, Maryam Haghighi, Jun Yuan, [John Hull](https://www-2.rotman.utoronto.ca/~hull/){:target="_blank"}, "*Narrative Monetary Policy Uncertainty*," in Proceedings of the Irving Fisher Committee Satellite Seminar held at the ISI 64th World Statistics Congress, co-organised with the Bank of Canada, Ottawa, Canada, 15 July 2023. [[SSRN](https://ssrn.com/abstract=4573829){:target="_blank"}] [[IFC Bulletin](https://www.bis.org/ifc/publ/ifcb61_07.pdf){:target="_blank"}] [[dataset visualization](https://finhub-mu.vercel.app/){:target="_blank"}]
+
+<div class="publication-sections" markdown="1">
+
+### <i class="fa-solid fa-book"></i> Journal Articles
+
+{% include publication-list.html category="journal" %}
+
+### <i class="fa-solid fa-users"></i> Conference & Workshop Papers
+
+{% include publication-list.html category="conference_workshop" %}
+
+### <i class="fa-solid fa-file-lines"></i> Working Papers
+
+{% include publication-list.html category="working_paper" %}
+
+### <i class="fa-solid fa-graduation-cap"></i> Thesis
+
+{% include thesis.html %}
+
+</div>
 
 ## Services
+
 - ProQuest TDM Studio Case Study: Harnessing Machine Learning with News Data for Economic Insights (2023, published in 2024) [[Final Report](https://pq-static-content.proquest.com/collateral/media2/documents/casestudy-tdmstudio-universitytoronto.pdf){:target="_blank"}]
 - IEEE Transactions on Network and Service Management: External Reviewer (2023-2026)

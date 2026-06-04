@@ -1,0 +1,17 @@
+<ul class="{% if include.class %}{{ include.class }}{% else %}detail-list{% endif %}">
+{% for bullet in include.bullets %}
+  <li>
+    {% if bullet.text %}{{ bullet.text }}{% if bullet.links %} {% include pub-links.html links=bullet.links %}{% endif %}
+    {% elsif bullet.links %}
+      {% for link in bullet.links %}<a href="{{ link.url }}" target="_blank">{{ link.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    {% endif %}
+    {% if bullet.sub_bullets %}
+    <ul class="detail-list-nested">
+      {% for sub in bullet.sub_bullets %}
+      <li>{% if sub.text %}{{ sub.text }}{% else %}{{ sub }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,13 @@
+{% assign thesis = site.data.thesis %}
+
+<div class="publication-item thesis-item">
+  <p class="publication-entry">
+    <strong>{{ thesis.degree }}</strong>,
+    <em>"{{ thesis.title }}"</em>.
+  </p>
+  <p class="publication-links">{% include pub-links.html links=thesis.links %}</p>
+  <ul class="publication-notes">
+    <li>Supervisor: {% include author.html author=thesis.supervisor %}</li>
+    <li>Committee: {% for member in thesis.committee %}{% include author.html author=member %}{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
+  </ul>
+</div>

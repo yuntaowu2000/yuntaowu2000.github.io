@@ -1,0 +1,14 @@
+{% for item in include.media %}
+  {% case item.type %}
+  {% when "image" %}
+  <p class="project-media">
+    <a href="{{ item.href | default: item.src }}" target="_blank"><img src="{{ item.src }}" alt="" /></a>
+  </p>
+  {% when "image_float_right" %}
+  <img src="{{ item.src }}" align="right" width="{{ item.width }}" class="img-right-align" alt="" />
+  {% when "iframe" %}
+  <div class="embed-video"{% if item.max_width %} style="max-width: {{ item.max_width }};"{% endif %}>
+    <iframe src="{{ item.src }}" scrolling="no" frameborder="0" allowfullscreen="true" loading="lazy" title="Embedded video"></iframe>
+  </div>
+  {% endcase %}
+{% endfor %}

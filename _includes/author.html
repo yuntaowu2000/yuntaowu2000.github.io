@@ -1,0 +1,3 @@
+{% assign author = include.author %}
+{% assign info = site.data.authors[author] %}
+{% if author == 'yuntao_wu' %}<strong>{{ info.name }}</strong>{% elsif info.url %}<a href="{{ info.url }}" target="_blank">{{ info.name }}</a>{% else %}{{ info.name }}{% endif %}

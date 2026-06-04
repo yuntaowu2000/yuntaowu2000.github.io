@@ -1,0 +1,24 @@
+<ol class="project-list">
+{% for project in site.data.projects %}
+  <li class="project-item{% if project.card %} project-card{% endif %}" id="{{ project.id }}">
+    <p class="project-title">
+      <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+    </p>
+    {% if project.context %}
+    <p class="project-context">{{ project.context }}</p>
+    {% endif %}
+    {% if project.media_float %}
+    {% include project-media.html media=project.media_float %}
+    {% endif %}
+    {% if project.bullets %}
+    {% include bullet-list.html bullets=project.bullets class="detail-list" %}
+    {% endif %}
+    {% if project.media %}
+    {% include project-media.html media=project.media %}
+    {% endif %}
+    {% if project.clear_float %}
+    <br clear="left" />
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>

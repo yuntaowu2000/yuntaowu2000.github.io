@@ -62,7 +62,179 @@ iframe {
     margin: 10px 0 10px 0;
 }
 
+.embed-video {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    margin: 10px 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #000;
+}
+
+.embed-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
 img-right-align {
     padding: 10px 0 10px 0;
     margin: 5px;
+}
+
+.publication-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5em 0 1.5em 0;
+}
+
+.publication-item {
+    margin-bottom: 1.1em;
+    padding-left: 0;
+}
+
+.publication-entry {
+    margin: 0 0 0.35em 0;
+    line-height: 1.55;
+}
+
+.publication-year {
+    color: #7eb8da;
+    font-weight: 600;
+}
+
+.publication-venue {
+    color: #666666;
+}
+
+.publication-links {
+    margin: 0.2em 0 0 0;
+    line-height: 1.5;
+}
+
+.publication-links a {
+    white-space: nowrap;
+}
+
+.publication-notes {
+    margin: 0.25em 0 0 1.25em;
+    padding-left: 1em;
+    color: #5c5c5c;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.publication-notes li {
+    margin-bottom: 0.2em;
+    color: #5c5c5c;
+}
+
+// .working-paper-list {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 0.85em;
+// }
+
+// .working-paper-card {
+//     margin-bottom: 0;
+//     padding: 1em 1.15em;
+//     border: 1px solid #555;
+//     border-radius: 6px;
+//     background: rgba(255, 255, 255, 0.04);
+// }
+
+// .working-paper-card .publication-entry {
+//     margin-bottom: 0;
+// }
+
+.publication-sections h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    font-size: 1.15em;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.35em;
+}
+
+.work-experience-list,
+.project-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5em 0 1.5em 0;
+}
+
+.work-experience-item {
+    margin-bottom: 1.25em;
+    padding: 1em 1.15em;
+    border: 1px solid #555;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.work-experience-header {
+    margin: 0 0 0.5em 0;
+    line-height: 1.55;
+}
+
+.work-experience-period {
+    color: #7eb8da;
+}
+
+.work-experience-sections {
+    margin: 0;
+    padding-left: 1.25em;
+}
+
+.detail-list,
+.detail-list-nested {
+    margin: 0.35em 0 0 0;
+    padding-left: 1.25em;
+    line-height: 1.5;
+}
+
+.detail-list-nested {
+    margin-top: 0.25em;
+}
+
+.project-item {
+    margin-bottom: 1.5em;
+    padding-left: 0;
+}
+
+.project-card {
+    padding: 1em 1.15em;
+    border: 1px solid #555;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.project-title {
+    margin: 0 0 0.35em 0;
+}
+
+.project-context {
+    margin: 0 0 0.35em 0;
+    color: #8a8a8a;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.project-media {
+    margin: 0.5em 0;
+}
+
+.project-sections h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    font-size: 1.15em;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.35em;
 }
