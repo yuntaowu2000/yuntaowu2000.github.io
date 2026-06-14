@@ -4,6 +4,7 @@ year: 2024
 links:
   - name: UofT Library
     url: "https://hdl.handle.net/1807/139971"
+    icon: "fa-solid fa-up-right-from-square"
 supervisor: andreas_veneris
 committee:
   - john_hull

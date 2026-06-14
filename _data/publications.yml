@@ -1,5 +1,6 @@
 # category: journal | conference_workshop | working_paper
 # Authors are slugs from _data/authors.yml; yuntao_wu is bolded in the template.
+# links: optional icon field uses Font Awesome classes (e.g. fa-solid fa-up-right-from-square)
 
 - id: deep-macrofin
   title: "Deep-MacroFin: Informed Equilibrium Neural Network for Continuous Time Economic Models"
@@ -15,25 +16,33 @@
   links:
     - name: GitHub
       url: "https://github.com/rotmanfinhub/deep-macrofin"
+      icon: "fa-brands fa-github"
     - name: Doc
       url: "https://rotmanfinhub.github.io/deep-macrofin/"
+      icon: "fa-solid fa-book"
     - name: JFDS
       url: "https://www.pm-research.com/content/iijjfds/8/2/97"
+      icon: "fa-solid fa-up-right-from-square"
     - name: JFDS Snapshots
       url: "https://www.pm-research.com/content/iijpracapp/early/2026/04/30/snp2026jfds004"
+      icon: "fa-solid fa-chalkboard"
     - name: arXiv
       url: "https://arxiv.org/abs/2408.10368"
+      icon: "fa-solid fa-up-right-from-square"
   notes:
     - text: "Accepted by SFMES (Simulation of Financial Markets and Economic Systems) Workshop at ICAIF'24."
       links:
         - name: Website
           url: "https://sites.google.com/view/sfmes/home/accepted-papers?authuser=0"
+          icon: "fa-solid fa-globe"
         - name: Poster
           url: "https://drive.google.com/file/d/12fbPzYYWi4Oq4n3BmV23UYopqzqV4uaF/view"
+          icon: "fa-solid fa-chalkboard"
     - text: "More experiments in the paper are in"
       links:
         - name: this GitHub Repo
           url: "https://github.com/yuntaowu2000/deep_macrofin_paper"
+          icon: "fa-brands fa-github"
 
 - id: vae-volatility-surfaces
   title: "A Variational Autoencoder Approach to Conditional Generation of Possible Future Volatility Surfaces"
@@ -51,10 +60,13 @@
   links:
     - name: GitHub
       url: "https://github.com/rotmanfinhub/vol-surface-vae-pub"
+      icon: "fa-brands fa-github"
     - name: JFDS
       url: "https://www.pm-research.com/content/iijjfds/7/3/86"
+      icon: "fa-solid fa-up-right-from-square"
     - name: Paper
       url: "./drafts/VAE.pdf"
+      icon: "fa-regular fa-file-pdf"
 
 - id: extracting-structure-press-releases
   title: "Extracting the Structure of Press Releases for Predicting Earnings Announcement Returns"
@@ -71,14 +83,19 @@
   links:
     - name: ACM Proceeding
       url: "https://dl.acm.org/doi/10.1145/3768292.3770344"
+      icon: "fa-solid fa-up-right-from-square"
     - name: structure-earnings-news
       url: "https://structure-earnings-news.com"
+      icon: "fa-solid fa-globe"
     - name: Poster
       url: "./presentations/structure_earnings.pdf"
+      icon: "fa-solid fa-chalkboard"
     - name: arXiv
       url: "https://arxiv.org/abs/2509.24254"
+      icon: "fa-solid fa-up-right-from-square"
     - name: SSRN
       url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5537559"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: aligning-multilingual-news
   title: "Aligning Multilingual News for Stock Return Prediction"
@@ -97,11 +114,14 @@
   links:
     - name: Poster
       url: "./presentations/multilingual_alignment.pdf"
+      icon: "fa-solid fa-chalkboard"
     - name: arXiv
       url: "https://arxiv.org/abs/2510.19203"
+      icon: "fa-solid fa-up-right-from-square"
     - name: SSRN
       url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5636031"
-    
+      icon: "fa-solid fa-up-right-from-square"
+
 - id: modeling-lvr-amm
   title: "Modeling Loss-Versus-Rebalancing in Automated Market Makers via Continuous-Installment Options"
   year: 2025
@@ -120,8 +140,10 @@
   links:
     - name: LIPIcs
       url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2025.6"
+      icon: "fa-solid fa-up-right-from-square"
     - name: arXiv
       url: "https://arxiv.org/abs/2508.02971"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: narrative-monetary-policy
   title: "Narrative Monetary Policy Uncertainty"
@@ -140,10 +162,13 @@
   links:
     - name: IFC Bulletin
       url: "https://www.bis.org/ifc/publ/ifcb61_07.pdf"
+      icon: "fa-solid fa-up-right-from-square"
     - name: dataset visualization
       url: "https://finhub-mu.vercel.app/"
+      icon: "fa-solid fa-chart-line"
     - name: SSRN
       url: "https://ssrn.com/abstract=4573829"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: measuring-price-effects-multilingual
   title: "Measuring Price Effects of Multilingual Global News with Large Language Models"
@@ -163,6 +188,7 @@
   links:
     - name: SSRN
       url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5825343"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: attention-based-excess-bond-premium
   title: "The Attention-Based Excess Bond Premium"
@@ -181,8 +207,10 @@
   links:
     - name: SSRN
       url: "https://papers.ssrn.com/abstract=5037810"
+      icon: "fa-solid fa-up-right-from-square"
     - name: arXiv
       url: "https://arxiv.org/abs/2412.04063"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: aliens-continuous-time
   title: "ALIENs for Continuous Time Economies"
@@ -195,8 +223,10 @@
   links:
     - name: GitHub
       url: "https://github.com/yuntaowu2000/active_learning_paper"
+      icon: "fa-brands fa-github"
     - name: SSRN
       url: "https://papers.ssrn.com/abstract=3848657"
+      icon: "fa-solid fa-up-right-from-square"
 
 - id: forecasting-text-uncertainty
   title: "Forecasting Using Text-Based Uncertainty Measures"
@@ -213,3 +243,4 @@
   links:
     - name: SSRN
       url: "https://ssrn.com/abstract=4628516"
+      icon: "fa-solid fa-up-right-from-square"

@@ -1,25 +1,23 @@
 {% assign category = include.category %}
-{% assign pubs = site.data.publications | where: "category", category %}
-<!-- {% if category == "working_paper" %}
-  {% assign pubs = pubs | sort: "year" | reverse %}
-  {% assign list_class = "publication-list working-paper-list" %}
-  {% assign item_class = "publication-item working-paper-card" %}
-{% else %} -->
-  {% assign pubs = pubs | sort: "year" | reverse %}
-  {% assign list_class = "publication-list" %}
-  {% assign item_class = "publication-item" %}
-<!-- {% endif %} -->
+{% assign pubs = site.data.publications | where: "category", category | sort: "year" | reverse %}
 
-<ol class="{{ list_class }}">
+<ol class="publication-list">
 {% for pub in pubs %}
-  <li class="{{ item_class }}" id="{{ pub.id }}">
-    <p class="publication-entry">
-      {% if pub.date_label %}<span class="publication-year">{{ pub.date_label }}</span> · {% elsif pub.year %}<span class="publication-year">{{ pub.year }}</span> · {% endif %}
-      {% for author in pub.authors %}{% include author.html author=author %}{% unless forloop.last %}, {% endunless %}{% endfor %},
-      <em>"{{ pub.title }}"</em>{% if pub.venue %}. <span class="publication-venue">{{ pub.venue }}</span>{% endif %}.
+  <li class="publication-item" id="{{ pub.id }}">
+    <div class="publication-header">
+      <div class="publication-title-row">
+        {% if pub.date_label %}<span class="publication-year">{{ pub.date_label }}</span>{% elsif pub.year %}<span class="publication-year">{{ pub.year }}</span>{% endif %}
+        <span class="publication-title">{{ pub.title }}</span>
+      </div>
+      {% if pub.links.size > 0 %}
+      <div class="publication-links">{% include pub-links.html links=pub.links %}</div>
+      {% endif %}
+    </div>
+    <p class="publication-authors">
+      {% for author in pub.authors %}{% include author.html author=author %}{% unless forloop.last %}, {% endunless %}{% endfor %}
     </p>
-    {% if pub.links.size > 0 %}
-    <p class="publication-links">{% include pub-links.html links=pub.links %}</p>
+    {% if pub.venue %}
+    <p class="publication-venue">{{ pub.venue }}</p>
     {% endif %}
     {% if pub.notes %}
     <ul class="publication-notes">
