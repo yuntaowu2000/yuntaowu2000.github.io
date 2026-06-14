@@ -1,4 +1,5 @@
 # Sorted by start_date descending in the template.
+# Bullet text supports inline Markdown links, e.g. [OpenAI](https://openai.com/){:target="_blank"}
 
 - id: extropolis
   role: Research & Developer
@@ -11,36 +12,19 @@
       name: ChatAF
       url: "https://extropolis.ai/chataf/"
       bullets:
-        - text: "OpenAI GPT-3.5/GPT-4 and LLM toolchain (e.g. Langchain) prompting."
-          links:
-            - name: OpenAI
-              url: "https://openai.com/"
-            - name: Langchain
-              url: "https://docs.langchain.com/docs/"
-        - text: "Develop function call plugins (web/news search, local search, long/short-term conversational memory, file processor, image generation) open-source"
-          links:
-            - name: here
-              url: "https://github.com/extropolis/ChatBE-plugins"
-        - text: "Railway deployment for production/staging/development."
-          links:
-            - name: Railway
-              url: "https://railway.app/"
+        - text: '[OpenAI](https://openai.com/){:target="_blank"} GPT-3.5/GPT-4 and LLM toolchain (e.g. [Langchain](https://docs.langchain.com/docs/){:target="_blank"}) prompting.'
+        - text: 'Develop function call plugins (web/news search, local search, long/short-term conversational memory, file processor, image generation) open-source [here](https://github.com/extropolis/ChatBE-plugins){:target="_blank"}.'
+        - text: '[Railway](https://railway.app/){:target="_blank"} deployment for production/staging/development.'
         - text: "Server stress testing."
         - text: "GitHub CI unit testing and deployment."
     - name: Diffusitron
       url: "https://diffusitron.ai/"
       bullets:
-        - text: "Integrate Diffie AI using finetuned/prompt-based GPT in Diffie Studio."
-          links:
-            - name: Diffie Studio
-              url: "https://app.diffusitron.ai/"
+        - text: 'Integrate Diffie AI using finetuned/prompt-based GPT in Diffie Studio.' # [](https://app.diffusitron.ai/){:target="_blank"}
         - text: "Implement text streaming for chatting functionality, reducing the latency to $\\sim$1s."
         - text: "Implement/Improve various web frontend features with React.js based on designers' and users' feedbacks."
         - text: "Load balancing using Cloudflare."
-        - text: "Documentation wiki."
-          links:
-            - name: Docs
-              url: "https://extropolis.github.io/DiffusitronWiki/"
+        - text: '[Docs](https://extropolis.github.io/DiffusitronWiki/){:target="_blank"}'
 
 - id: unity
   role: Software Developer Intern
@@ -50,18 +34,10 @@
   start_date: "2022-05-01"
   period: "2022 May – 2022 Aug"
   bullets:
-    - text: "Developed an interactivity AR project (GUM) in an agile team. Search #playwithgum for videos created by this app."
-      links:
-        - name: GUM
-          url: "https://create.unity.com/gum"
+    - text: 'Developed an interactivity AR project ([GUM](https://create.unity.com/gum){:target="_blank"}) in an agile team. Search #playwithgum for videos created by this app.'
       sub_bullets:
         - "I mainly worked on tutorial features and body tracking service integration."
-    - text: "Participated as a release manager of a milestone build using UCB (Unity gaming service). Configured production, staging and testing DNS routing using Terraform."
-      links:
-        - name: Unity gaming service
-          url: "https://unity.com/solutions/gaming-services"
-        - name: Terraform
-          url: "https://www.terraform.io/"
+    - text: 'Participated as a release manager of a milestone build using UCB ([Unity gaming service](https://unity.com/solutions/gaming-services){:target="_blank"}). Configured production, staging and testing DNS routing using [Terraform](https://www.terraform.io/){:target="_blank"}.'
     - text: "Contributed to IET (In editor tutorial) that is used in Unity sample and learning (FPS/Karting/LEGO microgame). This IET template helps developers to get familiar with Unity engine and ~353k users used IET in H1 2022."
 
 - id: ubc-bar-lab

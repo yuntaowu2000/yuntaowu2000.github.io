@@ -1,36 +1,16 @@
+# Bullet text supports inline Markdown links.
+
 - id: trails-game
   title: "Trails - Game"
   url: "https://trails-game.com/"
   card: true
   bullets:
-    - text: "Chinese fan website for the game series: The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ"
-      links:
-        - name: The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ
-          url: "https://www.falcom.co.jp/kiseki/"
-    - text: "Developed Chinese version of 3D interactive world map using Unity."
-      links:
-        - name: Chinese version of 3D interactive world map
-          url: "https://github.com/yuntaowu2000/TrailsMap"
-    - text: "Game World Rebuild using Unity."
-      links:
-        - name: Game World Rebuild
-          url: "https://github.com/yuntaowu2000/KisekiWorldRebuild"
-    - text: "Maintain and develop plugins for story plot transcripts using jQuery."
-      links:
-        - name: story plot transcripts
-          url: "https://book.trails-game.com/"
-    - text: "Web Quiz, 3D relation graph and LGC Calculator for Kuro no kiseki using Javascript, Node.js & Python."
-      links:
-        - name: Web Quiz
-          url: "https://github.com/yuntaowu2000/trails-quiz"
-        - name: 3D relation graph
-          url: "https://github.com/trails-game/relation-graph-3d-force"
-        - name: LGC Calculator for Kuro no kiseki
-          url: "https://github.com/yuntaowu2000/kuro-calculator"
-    - text: "All other tools using Python."
-      links:
-        - name: All other tools
-          url: "https://github.com/yuntaowu2000/trails-games-tools"
+    - text: 'Chinese fan website for the game series: [The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ](https://www.falcom.co.jp/kiseki/){:target="_blank"}'
+    - text: 'Developed [Chinese version of 3D interactive world map](https://github.com/yuntaowu2000/TrailsMap){:target="_blank"} using Unity.'
+    - text: '[Game World Rebuild](https://github.com/yuntaowu2000/KisekiWorldRebuild){:target="_blank"} using Unity.'
+    - text: 'Maintain and develop plugins for [story plot transcripts](https://book.trails-game.com/){:target="_blank"} using jQuery.'
+    - text: '[Web Quiz](https://github.com/yuntaowu2000/trails-quiz){:target="_blank"}, [3D relation graph](https://github.com/trails-game/relation-graph-3d-force){:target="_blank"} and [LGC Calculator for Kuro no kiseki](https://github.com/yuntaowu2000/kuro-calculator){:target="_blank"} using Javascript, Node.js & Python.'
+    - text: '[All other tools](https://github.com/yuntaowu2000/trails-games-tools){:target="_blank"} using Python.'
   media_float:
     - type: image_float_right
       src: "img/logo.png"
@@ -47,10 +27,7 @@
   card: true
   context: "Course Project for ECE1657 @ University of Toronto."
   bullets:
-    - text: "Simulated using Unity with Unity ML."
-      links:
-        - name: Unity ML
-          url: "https://unity.com/products/machine-learning-agents"
+    - text: 'Simulated using Unity with [Unity ML](https://unity.com/products/machine-learning-agents){:target="_blank"}.'
   media:
     - type: image
       src: "./img/RL.gif"

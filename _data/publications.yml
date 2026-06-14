@@ -20,12 +20,12 @@
     - name: Doc
       url: "https://rotmanfinhub.github.io/deep-macrofin/"
       icon: "fa-solid fa-book"
-    - name: JFDS
-      url: "https://www.pm-research.com/content/iijjfds/8/2/97"
-      icon: "fa-solid fa-up-right-from-square"
     - name: JFDS Snapshots
       url: "https://www.pm-research.com/content/iijpracapp/early/2026/04/30/snp2026jfds004"
       icon: "fa-solid fa-chalkboard"
+    - name: JFDS
+      url: "https://www.pm-research.com/content/iijjfds/8/2/97"
+      icon: "fa-solid fa-up-right-from-square"
     - name: arXiv
       url: "https://arxiv.org/abs/2408.10368"
       icon: "fa-solid fa-up-right-from-square"
