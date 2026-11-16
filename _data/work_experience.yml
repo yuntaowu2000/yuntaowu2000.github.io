@@ -1,6 +1,14 @@
 # Sorted by start_date descending in the template.
 # Bullet text supports inline Markdown links, e.g. [OpenAI](https://openai.com/){:target="_blank"}
-
+- id: rbc
+  role: Software Developer
+  org: RBC Capital Markets
+  org_url: "https://www.rbc.com/canada.html"
+  start_date: "2026-09-08"
+  period: "2026 Sep – 2026 Dec"
+  bullets:
+    - text: 'Integrate and enhance frontend UI for agentic credit-risk analytics platform in Reactjs and vite.'
+    - text: 'Design and implement model validation tests for credit-risk analysis agents'
 - id: extropolis
   role: Research & Developer
   org: Extropolis
@@ -20,7 +28,7 @@
     - name: Diffusitron
       url: "https://diffusitron.ai/"
       bullets:
-        - text: 'Integrate Diffie AI using finetuned/prompt-based GPT in Diffie Studio.' # [](https://app.diffusitron.ai/){:target="_blank"}
+        - text: 'Integrate Diffie AI using finetuned/prompt-based GPT in [Diffie Studio](https://app.diffusitron.ai/){:target="_blank"}.'
         - text: "Implement text streaming for chatting functionality, reducing the latency to $\\sim$1s."
         - text: "Implement/Improve various web frontend features with React.js based on designers' and users' feedbacks."
         - text: "Load balancing using Cloudflare."

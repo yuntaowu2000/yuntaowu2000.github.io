@@ -68,6 +68,32 @@
       url: "./drafts/VAE.pdf"
       icon: "fa-regular fa-file-pdf"
 
+- id: linguistic-passiveness-earnings
+  title: "Linguistic Passiveness in Earnings Calls and Stock Returns"
+  year: 2026
+  type: conference
+  category: conference_workshop
+  venue: "7th ACM International Conference on AI in Finance (ICAIF'26), November 14-17, 2026, Milan, Italy"
+  authors:
+    - lynn_tao
+    - yuntao_wu
+    - charles_martineau
+    - vincent_gregoire
+    - andreas_veneris
+  links:
+    - name: ACM Proceeding
+      url: "https://dl.acm.org/doi/10.1145/3858063.3858680"
+      icon: "fa-solid fa-up-right-from-square"
+    - name: Poster
+      url: "./presentations/passiveness_poster.pdf"
+      icon: "fa-solid fa-chalkboard"
+    - name: Slides
+      url: "./presentations/passiveness_presentation.pdf"
+      icon: "fa-solid fa-chalkboard"
+    - name: arXiv
+      url: "https://arxiv.org/abs/2610.19087"
+      icon: "fa-solid fa-up-right-from-square"
+  
 - id: extracting-structure-press-releases
   title: "Extracting the Structure of Press Releases for Predicting Earnings Announcement Returns"
   year: 2025
@@ -168,6 +194,25 @@
       icon: "fa-solid fa-chart-line"
     - name: SSRN
       url: "https://ssrn.com/abstract=4573829"
+      icon: "fa-solid fa-up-right-from-square"
+
+- id: optimal-transport-earnings
+  title: "Measuring What is Repeated and Novel in Earnings Disclosures Using Optimal Transport"
+  year: 2026
+  type: working_paper
+  category: working_paper
+  authors:
+    - yuntao_wu
+    - lynn_tao
+    - charles_martineau
+    - vincent_gregoire
+    - andreas_veneris
+  links:
+    - name: structure-earnings-news
+      url: "https://structure-earnings-news.com"
+      icon: "fa-solid fa-globe"
+    - name: arXiv
+      url: "https://arxiv.org/abs/2610.04094"
       icon: "fa-solid fa-up-right-from-square"
 
 - id: measuring-price-effects-multilingual
