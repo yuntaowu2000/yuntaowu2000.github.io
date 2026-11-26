@@ -1,0 +1,12 @@
+{% if include.notes %}
+<ul class="teaching-notes">
+{% for note in include.notes %}
+  <li>
+    {% include inline-text.html text=note.text %}
+    {% if note.notes %}
+      {% include teaching-notes.html notes=note.notes %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}

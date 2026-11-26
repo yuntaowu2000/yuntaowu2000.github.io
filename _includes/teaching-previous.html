@@ -1,0 +1,22 @@
+{% for school in site.data.teaching.previous %}
+### {{ school.school }}
+
+<ol class="teaching-previous-list">
+{% for course in school.courses %}
+  <li class="teaching-item">
+    <p class="teaching-name">
+      <span class="teaching-code">{{ course.code }}</span>{% if course.title %} {{ course.title }}{% endif %}
+    </p>
+    {% if course.years %}
+    <p class="teaching-meta">{{ course.years }}</p>
+    {% endif %}
+    {% if course.duty %}
+    <p class="teaching-duty">{{ course.duty }}</p>
+    {% endif %}
+    {% if course.notes %}
+      {% include teaching-notes.html notes=course.notes %}
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endfor %}

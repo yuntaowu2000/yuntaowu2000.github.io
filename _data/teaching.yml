@@ -1,0 +1,73 @@
+# Teaching history. notes support inline Markdown links.
+# previous course fields: code, title, years, duty, notes (optional)
+
+current:
+  - code: "CSC 401/2511"
+    role: "TA"
+    term: "2027W"
+  - code: "ESC 190"
+    role: "Lab TA"
+    term: "2027W"
+  - code: "ECE 1762"
+    role: "Head TA"
+    term: "2027W"
+
+previous:
+  - school: "University of Toronto"
+    courses:
+      - code: "ESC 180"
+        title: "Introduction to Computer Programming"
+        years: "2022F, 2023F, 2024F, 2025F"
+        duty: "Lab TA"
+      - code: "ESC 190"
+        title: "Computer Algorithms and Data Structures"
+        years: "2023W, 2024W, 2025W, 2026W"
+        duty: "Lab TA"
+      - code: "ECE 345"
+        title: "Algorithms and Data Structures"
+        years: "2022F, 2023F, 2024F, 2025F"
+        duty: "Grading TA (2022F); Tutorial TA, co-head (2023F); Head, Tutorial TA (2024F, 2025F)"
+        notes:
+          - text: 'Some background tutorial videos I made are available on [YouTube](https://youtube.com/playlist?list=PL1KqfdF_EfskSucRSsJ7jP0ZLKfBTL31A&si=0_zHzYrPHu6CpVk5){:target="_blank"}.'
+          - text: 'Final review recorded by some student on [YouTube](https://www.youtube.com/watch?v=7dPjl2V_uoE){:target="_blank"}.'
+          - text: 'Final review [recording 2024F](https://youtu.be/a2IJYqQh2Dk){:target="_blank"}.'
+      - code: "ECE 1762"
+        title: "Algorithms and Data Structures"
+        years: "2024W, 2025W, 2026W"
+        duty: "Head TA"
+        notes:
+          - text: 'Tutorial recordings: [Youtube](https://youtube.com/playlist?list=PL1KqfdF_EfskRjTq3lk3AJKjNT7skpuxl&si=dst3vwS6pYaVlslR){:target="_blank"}'
+      - code: "CSC 401/2511"
+        title: "Natural Language Computing"
+        years: "2024W, 2024F, 2026W"
+        duty: "Assignment 1 Head TA"
+        notes:
+          - text: "Assignment 1 (2024W): Identifying political affiliations on Reddit using feature based learning and language model."
+          - text: "Assignment 1 (2024F, 2026W): Financial Sentiment Analysis (I redesigned the entire assignment for this session.)"
+            notes:
+              - text: '[Handout](./teaching_notes/CSC401_A1_2024.pdf){:target="_blank"}'
+              - text: 'Tutorial 1 [recording](https://youtu.be/JaFdlhCowp4){:target="_blank"} with [slides](./teaching_notes/CSC401_2511%20Assignment%201%20Tutorial%201.pdf){:target="_blank"}'
+              - text: 'Tutorial 2 [recording](https://youtu.be/WdaJMr8aaY4){:target="_blank"} with [slides](./teaching_notes/CSC401_2511%20Assignment%201%20Tutorial%202.pdf){:target="_blank"}'
+
+  - school: "University of British Columbia"
+    courses:
+      - code: "CPEN 331"
+        title: "Operating Systems"
+        years: "2021W"
+        duty: "Lab TA"
+      - code: "CPEN 221"
+        title: "Principles of Software Construction"
+        years: "2020W, 2021W"
+        duty: "Lab TA"
+      - code: "MATH 120/121"
+        title: "Honors Differential/Integral Calculus"
+        years: "2020W, 2021W"
+        duty: "Grading TA"
+      - code: "MATH 105"
+        title: "Integral Calculus with Applications to Commerce and Social Sciences"
+        years: "2021W"
+        duty: "Tutorial TA"
+      - code: "MATH 100"
+        title: "Differential Calculus with Applications to Physical Sciences and Engineering"
+        years: "2020W"
+        duty: "Tutorial TA"

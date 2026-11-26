@@ -1,0 +1,10 @@
+<ul class="teaching-current-list">
+{% for item in site.data.teaching.current %}
+  <li>
+    <span class="teaching-code">{{ item.code }}</span>
+    {% if item.role or item.term %}
+    <span class="teaching-role">({{ item.role }}{% if item.role and item.term %} {{ item.term }}{% elsif item.term %}{{ item.term }}{% endif %})</span>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

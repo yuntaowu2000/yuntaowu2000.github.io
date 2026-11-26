@@ -111,6 +111,9 @@
     - name: arXiv
       url: "https://arxiv.org/abs/2610.19087"
       icon: "fa-solid fa-up-right-from-square"
+    - name: Video
+      url: "https://www.youtube.com/watch?v=Ag-66Getpzk"
+      icon: "fa-brands fa-youtube"
   
 - id: extracting-structure-press-releases
   title: "Extracting the Structure of Press Releases for Predicting Earnings Announcement Returns"
