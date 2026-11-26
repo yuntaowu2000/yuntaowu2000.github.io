@@ -1,0 +1,48 @@
+# Research: individual students. author is a slug from _data/authors.yml.
+# Capstone: team entries. students are plain names (no authors.yml needed).
+
+research:
+  - author: lynn_tao
+    degree: "BASc"
+    school: "University of Toronto"
+    period: "2025–Now"
+    # project: "..."
+    # project_url: "https://..."
+    # notes: "..."
+    # links:
+    #   - name: arXiv
+    #     url: "https://..."
+    #     icon: "fa-solid fa-up-right-from-square"
+
+  - author: ege_mert_akin
+    degree: "BSc"
+    school: "University of Toronto"
+    period: "2024–2025"
+
+capstone: 
+- course: "ECE496"
+  period: "2026–2027"
+  project: "Multi-modal Engine for Comparing Company Disclosures and Financial News Reports (2026406)"
+  project_url: "https://structure-earnings-news.com/"
+  school: "University of Toronto"
+  students:
+    - "Mary Ghazi"
+    - "Shiyao Qian"
+    - "Chengkai Xue"
+    - "Runze Zhao"
+- course: "ECE496"
+  period: "2025–2026"
+  project: "Investor Oriented NLP System for Earnings Sentiment Analysis (2025165)"
+  project_url: "https://structure-earnings-news.com/"
+  school: "University of Toronto"
+  students:
+    - "Kalvin Cui"
+    - "Catherine Li"
+    - "Cindy Wang"
+    - "Vanness Yang"
+    # - "Student Five"
+  # notes: "Optional note"
+  # links:
+  #   - name: Report
+  #     url: "./..."
+  #     icon: "fa-regular fa-file-pdf"

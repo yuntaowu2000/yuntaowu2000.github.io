@@ -57,12 +57,16 @@ yoshio_nozawa:
 
 zissis_poulos:
   name: "Zissis Poulos"
+  url: "https://zissis.ai/"
 
 haris_rasul:
   name: "Haris Rasul"
 
 srisht_fateh_singh:
   name: "Srisht Fateh Singh"
+
+vlad_nekriach:
+  name: "Vladyslav Nekriach"
 
 vasily_strela:
   name: "Vasily Strela"

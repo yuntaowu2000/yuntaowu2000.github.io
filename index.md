@@ -9,7 +9,7 @@ layout: default
 My name is Yuntao (Winston) Wu. I am currently a PhD student in Computer Engineering at University of Toronto, advised by [Dr. Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}. I work as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a Bachelor of Applied Science in Computer Engineering, minor in Honors Mathematics.
 <br clear="left"/>
 
-My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179){:target="_blank"}.
+My [<i class="fa-brands fa-github"></i> Github](https://github.com/yuntaowu2000){:target="_blank"}, [<i class="fa-brands fa-linkedin"></i> LinkedIn](https://www.linkedin.com/in/yuntaowu936a3b179){:target="_blank"}, [<i class="fa-brands fa-google"></i> Google Scholar](https://scholar.google.com/citations?user=DYRJeLUAAAAJ&hl=en){:target="_blank"}.
 
 ### <i class="fa-solid fa-graduation-cap"></i> Education 
 - PhD in Computer Engineering, University of Toronto (Expected 2028)

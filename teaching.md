@@ -4,7 +4,9 @@ layout: default
 ---
 
 ## Currently Teaching
-- None
+- CSC 401/2511 (TA 2027W)
+- ESC 190 (Lab TA 2027W)
+- ECE 1762 (Head TA 2027W)
 
 ## Previous Teaching
 
@@ -29,3 +31,7 @@ layout: default
   - MATH 120/121 Honors Differential/Integral Calculus (Grading TA 2020W & 2021W)
   - MATH 105 Integral Calculus with Applications to Commerce and Social Sciences (Tutorial TA 2021W)
   - MATH 100 Differential Calculus with Applications to Physical Sciences and Engineering (Tutorial TA 2020W)
+
+## Student Supervision
+
+{% include supervision-list.html %}

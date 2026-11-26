@@ -2,6 +2,24 @@
 # Authors are slugs from _data/authors.yml; yuntao_wu is bolded in the template.
 # links: optional icon field uses Font Awesome classes (e.g. fa-solid fa-up-right-from-square)
 
+- id: amm-risk
+  title: "Risk Management in Decentralized Finance: Applications of Perpetual Continuous-Installment Options to Automated Market Makers and Lending Protocols"
+  year: 2026
+  type: journal
+  category: journal
+  venue: "Distributed Ledger Technologies: Research and Practice, Oct. 2026"
+  authors:
+    - srisht_fateh_singh
+    - reina_ke_xin_li
+    - yuntao_wu
+    - vlad_nekriach
+    - zissis_poulos
+    - andreas_veneris
+  links:
+    - name: ACM
+      url: "https://dl.acm.org/doi/10.1145/3864454"
+      icon: "fa-solid fa-up-right-from-square"
+
 - id: deep-macrofin
   title: "Deep-MacroFin: Informed Equilibrium Neural Network for Continuous Time Economic Models"
   year: 2026

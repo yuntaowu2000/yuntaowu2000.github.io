@@ -1,0 +1,62 @@
+{% if site.data.supervision.research.size > 0 %}
+### Research
+
+<ol class="supervision-list">
+{% for student in site.data.supervision.research %}
+  {% assign info = site.data.authors[student.author] %}
+  <li class="supervision-item" id="supervision-{{ student.author }}">
+    <p class="supervision-name">
+      {% if info.url %}<a href="{{ info.url }}" target="_blank">{{ info.name }}</a>{% else %}{{ info.name }}{% endif %}
+    </p>
+    <p class="supervision-meta">
+      {% if student.degree %}<span class="supervision-degree">{{ student.degree }}</span>{% endif %}
+      {% if student.degree and student.school %} · {% endif %}
+      {% if student.school %}<span class="supervision-school">{{ student.school }}</span>{% endif %}
+      {% if student.period %} · <span class="supervision-period">{{ student.period }}</span>{% endif %}
+    </p>
+    {% if student.project %}
+    <p class="supervision-project">
+      {% if student.project_url %}<a href="{{ student.project_url }}" target="_blank">{{ student.project }}</a>{% else %}{{ student.project }}{% endif %}
+    </p>
+    {% endif %}
+    {% if student.notes %}
+    <p class="supervision-notes">{{ student.notes }}</p>
+    {% endif %}
+    {% if student.links %}
+    <p class="supervision-links">{% include pub-links.html links=student.links %}</p>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if site.data.supervision.capstone.size > 0 %}
+### Capstone 
+
+<ol class="supervision-list">
+{% for team in site.data.supervision.capstone %}
+  <li class="supervision-item" id="supervision-capstone-{{ forloop.index }}">
+    <p class="supervision-name">
+      {{ team.students | join: ", " }}
+    </p>
+    <p class="supervision-meta">
+      {% if team.course %}<span class="supervision-course">{{ team.course }}</span>{% endif %}
+      {% if team.course and team.school %} · {% endif %}
+      {% if team.school %}<span class="supervision-school">{{ team.school }}</span>{% endif %}
+      {% if team.period %} · <span class="supervision-period">{{ team.period }}</span>{% endif %}
+    </p>
+    {% if team.project %}
+    <p class="supervision-project">
+      {% if team.project_url %}<a href="{{ team.project_url }}" target="_blank">{{ team.project }}</a>{% else %}{{ team.project }}{% endif %}
+    </p>
+    {% endif %}
+    {% if team.notes %}
+    <p class="supervision-notes">{{ team.notes }}</p>
+    {% endif %}
+    {% if team.links %}
+    <p class="supervision-links">{% include pub-links.html links=team.links %}</p>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endif %}

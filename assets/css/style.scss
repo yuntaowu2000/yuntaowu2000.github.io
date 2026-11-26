@@ -353,6 +353,52 @@ img-right-align {
     font-size: 0.95em;
 }
 
+.supervision-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5em 0 1.5em 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85em 1.5em;
+}
+
+.supervision-item {
+    margin: 0;
+}
+
+.supervision-name {
+    margin: 0 0 0.2em 0;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.supervision-meta,
+.supervision-project,
+.supervision-notes {
+    margin: 0 0 0.15em 0;
+    line-height: 1.45;
+    font-size: 0.95em;
+}
+
+.supervision-meta {
+    color: #555;
+}
+
+.supervision-notes {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.supervision-links {
+    margin: 0.25em 0 0 0;
+}
+
+@media screen and (max-width: 720px) {
+    .supervision-list {
+        grid-template-columns: 1fr;
+    }
+}
+
 // body {
 //     font-family:
 //         "Inter",
