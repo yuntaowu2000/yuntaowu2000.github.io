@@ -1,0 +1,23 @@
+{% assign course = include.course %}
+<li class="course-item">
+  <p class="course-name">
+    {% if course.code %}<span class="course-code">{{ course.code }}</span>{% endif %}
+    {% if course.code and course.title %} {% endif %}
+    {% if course.title %}{{ course.title }}{% endif %}
+    {% if course.grade %} <span class="course-grade">({{ course.grade }})</span>{% endif %}
+  </p>
+  {% if course.notes %}
+  <ul class="course-notes">
+    {% for note in course.notes %}
+    <li>{% include inline-text.html text=note %}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if course.links %}
+  <p class="course-links">
+    {% for link in course.links %}
+    <a href="{{ link.url }}" target="_blank">[{{ link.name }}]</a>{% unless forloop.last %} {% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+</li>

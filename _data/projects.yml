@@ -1,9 +1,12 @@
+# Optional: logo, icon, period, context
 # Bullet text supports inline Markdown links.
 
 - id: trails-game
   title: "Trails - Game"
   url: "https://trails-game.com/"
-  card: true
+  logo: "img/logos/trails-game.png"
+  context: "Fan website & tools for The Legend of Heroes / 軌跡シリーズ"
+  period: "Ongoing"
   bullets:
     - text: 'Chinese fan website for the game series: [The Legend of Heroes Kiseki Series/英雄伝説 軌跡シリーズ](https://www.falcom.co.jp/kiseki/){:target="_blank"}'
     - text: 'Developed [Chinese version of 3D interactive world map](https://github.com/yuntaowu2000/TrailsMap){:target="_blank"} using Unity.'
@@ -11,21 +14,17 @@
     - text: 'Maintain and develop plugins for [story plot transcripts](https://book.trails-game.com/){:target="_blank"} using jQuery.'
     - text: '[Web Quiz](https://github.com/yuntaowu2000/trails-quiz){:target="_blank"}, [3D relation graph](https://github.com/trails-game/relation-graph-3d-force){:target="_blank"} and [LGC Calculator for Kuro no kiseki](https://github.com/yuntaowu2000/kuro-calculator){:target="_blank"} using Javascript, Node.js & Python.'
     - text: '[All other tools](https://github.com/yuntaowu2000/trails-games-tools){:target="_blank"} using Python.'
-  media_float:
-    - type: image_float_right
-      src: "img/logo.png"
-      width: "64px"
   media:
     - type: iframe
       src: "//player.bilibili.com/player.html?aid=985491660&bvid=BV12t4y1L7qX&cid=828676037&page=1&high_quality=1&danmaku=0"
       max_width: "640px"
-  clear_float: true
 
 - id: lady-in-the-lake
   title: "Analysis and simulation of The Lady in the Lake problem"
   url: "https://github.com/yuntaowu2000/RL-training"
-  card: true
-  context: "Course Project for ECE1657 @ University of Toronto."
+  icon: "fa-solid fa-gamepad"
+  context: "Course Project for ECE1657 @ University of Toronto"
+  period: "2024"
   bullets:
     - text: 'Simulated using Unity with [Unity ML](https://unity.com/products/machine-learning-agents){:target="_blank"}.'
   media:
@@ -36,8 +35,9 @@
 - id: quizzical
   title: Quizzical
   url: "https://github.com/yuntaowu2000/CPEN321-Quizzical"
-  card: true
-  context: "Course Project for CPEN321 @ University of British Columbia."
+  icon: "fa-brands fa-android"
+  context: "Course Project for CPEN321 @ University of British Columbia"
+  period: "2021"
   bullets:
     - text: "A platform for teachers to build quizzes for students and track student progress."
     - text: "Frontend: Java."

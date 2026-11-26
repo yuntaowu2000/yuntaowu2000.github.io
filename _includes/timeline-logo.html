@@ -1,0 +1,7 @@
+{% if include.logo %}
+<img class="timeline-logo" src="{{ include.logo }}" alt="{{ include.alt | default: '' }}" />
+{% elsif include.icon %}
+<span class="timeline-logo timeline-logo-icon"><i class="{{ include.icon }}"></i></span>
+{% else %}
+<span class="timeline-logo timeline-logo-placeholder">{{ include.alt | default: '?' | slice: 0 | upcase }}</span>
+{% endif %}

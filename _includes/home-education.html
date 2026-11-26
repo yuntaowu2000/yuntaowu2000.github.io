@@ -1,0 +1,13 @@
+<ol class="home-list">
+{% for item in site.data.home.education %}
+  <li class="home-item">
+    <p class="home-item-name">{{ item.degree }}</p>
+    <p class="home-item-meta">
+      {{ item.school }}{% if item.period %} · {{ item.period }}{% endif %}
+    </p>
+    {% if item.gpa %}
+    <p class="home-item-detail">GPA: {{ item.gpa }}</p>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>

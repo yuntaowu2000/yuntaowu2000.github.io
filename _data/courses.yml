@@ -1,0 +1,323 @@
+# Courses taken with notes & projects. Rendered inside <details> on the home page.
+
+- school: "University of Toronto"
+  courses:
+    - code: "CSC 2125"
+      title: "Blockchain Technology"
+      grade: "A+"
+      links:
+        - name: Course project
+          url: "notes/CSC2125_Project_Report.pdf"
+    - code: "CSC 2310"
+      title: "Computational Methods for Partial Differential Equations"
+      grade: "A"
+      links:
+        - name: Notes
+          url: "notes/CSC2310.pdf"
+    - code: "CSC 2401"
+      title: "Introduction to Computational Complexity"
+      grade: "B+"
+      links:
+        - name: Notes
+          url: "notes/CSC2401.pdf"
+    - code: "CSC 2511"
+      title: "Natural Language Computing"
+      grade: "A+"
+      links:
+        - name: Course website
+          url: "https://www.cs.toronto.edu/~raeidsaqur/csc401/"
+    - code: "ECE 1505"
+      title: "Convex Optimization"
+      grade: "A"
+      links:
+        - name: Notes
+          url: "notes/ECE1505.pdf"
+    - code: "ECE 1647"
+      title: "Introduction to Nonlinear Control Systems"
+      grade: "A"
+      links:
+        - name: Notes
+          url: "notes/ECE1647.pdf"
+    - code: "ECE 1657"
+      title: "Game Theory and Evolutionary Games"
+      grade: "A+"
+      links:
+        - name: Notes
+          url: "notes/ECE1657.pdf"
+        - name: Course project
+          url: "https://github.com/yuntaowu2000/RL-training"
+    - code: "ECE 1762"
+      title: "Algorithms and Data Structures"
+      grade: "A+"
+      links:
+        - name: Notes
+          url: "notes/ECE1762.pdf"
+    - code: "MAT 1525"
+      title: "Topics in Inverse Problems and Image Analysis"
+      grade: "A"
+      links:
+        - name: Notes
+          url: "notes/MAT1525.pdf"
+        - name: Course project
+          url: "https://github.com/yuntaowu2000/MAT1525_project_code"
+    - code: "MAT 1855"
+      title: "Mathematical Problems in Economics"
+      grade: "A+"
+      links:
+        - name: Notes
+          url: "notes/MAT1855.pdf"
+  audited:
+    - code: "CSC 2429"
+      title: "Introduction to Quantum Information"
+      links:
+        - name: Notes
+          url: "notes/CSC2429.pdf"
+    - code: "MAT 1000/1001"
+      title: "Real Analysis"
+      links:
+        - name: Notes
+          url: "notes/MAT1000.pdf"
+    - code: "MAT 1600/1601/1128"
+      title: "Probability and Stochastic Calculus"
+      links:
+        - name: Notes
+          url: "notes/MAT1600.pdf"
+    - code: "MAT 1856"
+      title: "Introduction to Mathematical Finance"
+      links:
+        - name: Notes
+          url: "notes/MAT1856.pdf"
+    - code: "STA 2502"
+      title: "Stochastic Models in Investments"
+      links:
+        - name: Notes
+          url: "notes/STA2502.pdf"
+    - code: "ECO 358"
+      title: "Financial Economics"
+      links:
+        - name: Notes
+          url: "notes/ECO358.pdf"
+    - code: "MAT 315"
+      title: "Introduction to Number Theory"
+      links:
+        - name: Notes
+          url: "notes/MAT315.pdf"
+
+- school: "University of British Columbia"
+  warning: "The format of notes may vary from year to year as I organized them. Not all courses/notes I have taken are included here. The course contents might have changed from the year I took them."
+  groups:
+    - name: ECE/CS
+      courses:
+        - code: "ELEC 201"
+          title: "Circuit Analysis I"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/ELEC201.pdf"
+        - code: "CPEN 221"
+          title: "Principles of Software Construction"
+          grade: "A"
+          links:
+            - name: Notes
+              url: "notes/CPEN221.pdf"
+        - code: "CPSC 221"
+          title: "Basic Algorithms and Data Structures"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/CPSC221.pdf"
+        - code: "CPSC 261"
+          title: "Basics of Computer Systems"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/CPSC261.pdf"
+        - code: "CPEN 321"
+          title: "Software Engineering"
+          grade: "A"
+          links:
+            - name: Notes
+              url: "notes/CPEN321.pdf"
+            - name: Course Project
+              url: "https://github.com/yuntaowu2000/CPEN321-Quizzical"
+        - code: "CPEN 331"
+          title: "Operating System"
+          grade: "A+"
+          notes:
+            - "OS161"
+          links:
+            - name: Course website
+              url: "https://people.ece.ubc.ca/~os161/class-site/calendar.html"
+        - code: "CPSC 314"
+          title: "Computer Graphics"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/CPSC314.pdf"
+        - code: "ELEC 331"
+          title: "Computer Communications"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/ELEC331.pdf"
+        - code: "CPEN 400D"
+          title: "Deep Learning"
+          grade: "A+"
+          notes:
+            - "Deep Neural Networks, CNN, RNN, NLP using TensorFlow."
+          links:
+            - name: Notes
+              url: "notes/CPEN400D.pdf"
+        - code: "CPEN 400P"
+          title: "Program Analysis"
+          grade: "A+"
+          notes:
+            - "Static & dynamic anlysis of programs."
+            - "LLVM, KLEE, AFL."
+          links:
+            - name: Assignments (no solution)
+              url: "https://github.com/ubc-cpen400p-21w/classroom"
+        - code: "CPSC 425"
+          title: "Computer Vision"
+          grade: "A+"
+          notes:
+            - "Image filtering, sampling, classification."
+            - "Object/edge detection. Object recognition."
+          links:
+            - name: Notes
+              url: "notes/CPSC425.pdf"
+        - code: "ELEC 400M"
+          title: "Machine Learning"
+          grade: "A+"
+          notes:
+            - "Regression, SVM, Decision Trees, PCA, Deep Learning and CNN using PyTorch."
+          links:
+            - name: Final project
+              url: "https://github.com/yuntaowu2000/400m-final-project"
+        - code: "EECE 571S"
+          title: "Introduction to Quantum Computing"
+          grade: "A+"
+          notes:
+            - "Graduate level course taken as an undergraduate student."
+            - "Fundamentals of quantum computing & quantum algorithms."
+            - "Deutsch's problem, QFT, Phase Estimation, Grover's algorithm."
+            - "Error correction."
+          links:
+            - name: Notes
+              url: "notes/EECE571S.pdf"
+    - name: MATH
+      courses:
+        - title: "Calculus"
+          notes:
+            - "MATH 100: Differential Calculus (A+)"
+            - "MATH 121: Honours Integral Calculus (A+)"
+            - "MATH 253: Multivariable Calculus (A+)"
+            - "MATH 317: Calculus IV (Vector) (A+)"
+          links:
+            - name: Notes
+              url: "notes/MATH-Calculus.pdf"
+        - code: "MATH 152"
+          title: "Linear Systems"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH152.pdf"
+        - code: "MATH 220"
+          title: "Mathematical Proof"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH220.pdf"
+        - code: "MATH 300/301"
+          title: "Complex Variables and Applied Analysis"
+          grade: "A+"
+          notes:
+            - "Calculus of Complex variables, Residue Calculus."
+            - "Conformal mapping, Asymptotic Evaluation of Integrals."
+          links:
+            - name: Notes
+              url: "notes/MATH300-301.pdf"
+        - code: "MATH 316"
+          title: "Elementary Differential Equations II (PDEs)"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH316.pdf"
+        - code: "MATH 318"
+          title: "Introduction to Probability"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH318.pdf"
+        - code: "MATH 340"
+          title: "Introduction to Linear Programming"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH340.pdf"
+        - code: "MATH 345"
+          title: "Applied Nonlinear Dynamics and Chaos"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/MATH345.pdf"
+        - code: "MATH 424"
+          title: "Classical Differential Geometry"
+          grade: "A"
+          links:
+            - name: Notes
+              url: "notes/MATH424.pdf"
+    - name: PHYS
+      courses:
+        - title: "First Year"
+          notes:
+            - "PHYS 157: Introductory Physics for Engineers I (Thermodynamics & Waves) (A+)"
+            - "PHYS 158: Introductory Physics for Engineers II (Electricity & magnetism) (A+)"
+            - "PHYS 170: Mechanics (A+)"
+          links:
+            - name: Notes
+              url: "notes/PHYS-firstyear.pdf"
+        - code: "PHYS 250"
+          title: "Introduction to Modern Physics"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/PHYS250.pdf"
+        - code: "PHYS 304"
+          title: "Introduction to Quantum Mechanics"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/PHYS304.pdf"
+    - name: MISC
+      courses:
+        - code: "CHEM 154"
+          title: "Chemistry for Engineering"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/CHEM154.pdf"
+        - code: "CIVL 250"
+          title: "Engineering and Sustainable Development"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/CIVL250.pdf"
+        - code: "ECON 311"
+          title: "Principles of Macroeconomics"
+          grade: "A+"
+          links:
+            - name: Notes
+              url: "notes/ECON311.pdf"
+        - code: "CPEN 481"
+          title: "Economic Analysis of Engineering Projects"
+          grade: "A"
+          links:
+            - name: Notes
+              url: "notes/CPEN481.pdf"
+        - code: "CHIN 474"
+          title: "Later Classical Chinese Poetry (Intensive)"
+          grade: "A"
+          notes:
+            - '[Notes](notes/CHIN474.pdf){:target="_blank"} (Chinese only)'
+            - '[Course project](notes/CHIN474-final.pdf){:target="_blank"} (Chinese only)'

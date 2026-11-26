@@ -1,29 +1,43 @@
 {% assign jobs = site.data.work_experience | sort: "start_date" | reverse %}
 
-<ol class="work-experience-list">
+<ol class="timeline-list">
 {% for job in jobs %}
-  <li class="work-experience-item" id="{{ job.id }}">
-    <p class="work-experience-header">
-      {{ job.role }} @
-      {% if job.org_icon %}<i class="{{ job.org_icon }}"></i> {% endif %}
-      <a href="{{ job.org_url }}" target="_blank">{{ job.org }}</a>
-      <span class="work-experience-period">({{ job.period }})</span>
-    </p>
-    {% if job.sections %}
-    <ul class="work-experience-sections">
-      {% for section in job.sections %}
-      <li>
-        {% if section.lead %}{{ section.lead }} {% endif %}{% if section.url %}<a href="{{ section.url }}" target="_blank">{{ section.name }}</a>{% else %}{{ section.name }}{% endif %}
-        {% if section.bullets %}
-        {% include bullet-list.html bullets=section.bullets class="detail-list-nested" %}
+  <li class="timeline-item" id="{{ job.id }}">
+    <div class="timeline-marker" aria-hidden="true"></div>
+    <div class="timeline-logo-wrap">
+      {% include timeline-logo.html logo=job.logo icon=job.org_icon alt=job.org %}
+    </div>
+    <div class="timeline-body">
+      <div class="timeline-header">
+        <div class="timeline-heading">
+          <p class="timeline-title">{{ job.role }}</p>
+          <p class="timeline-org">
+            {% if job.org_url %}<a href="{{ job.org_url }}" target="_blank">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}
+            {% if job.org_subtitle %} · {{ job.org_subtitle }}{% endif %}
+          </p>
+        </div>
+        {% if job.period %}
+        <p class="timeline-period">{{ job.period }}</p>
         {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-    {% if job.bullets %}
-    {% include bullet-list.html bullets=job.bullets class="detail-list-nested" %}
-    {% endif %}
+      </div>
+
+      {% if job.sections %}
+      <ul class="timeline-sections">
+        {% for section in job.sections %}
+        <li>
+          {% if section.lead %}{{ section.lead }} {% endif %}{% if section.url %}<a href="{{ section.url }}" target="_blank">{{ section.name }}</a>{% else %}{{ section.name }}{% endif %}
+          {% if section.bullets %}
+          {% include bullet-list.html bullets=section.bullets class="timeline-notes" %}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if job.bullets %}
+      {% include bullet-list.html bullets=job.bullets class="timeline-notes" %}
+      {% endif %}
+    </div>
   </li>
 {% endfor %}
 </ol>

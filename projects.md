@@ -3,17 +3,13 @@ title: Projects & Work Experience
 layout: default
 ---
 
-## <i class="fa-solid fa-briefcase"></i> Work Experience
+## Work Experience
 
 {% include work-experience-list.html %}
 
-## <i class="fa-solid fa-diagram-project"></i> Projects
-
-<div class="project-sections" markdown="1">
+## Projects
 
 {% include project-list.html %}
-
-</div>
 
 ## Misc
 

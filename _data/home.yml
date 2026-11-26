@@ -1,0 +1,60 @@
+# Home page content. Links support Markdown in about text via inline-text.
+
+about: >-
+  My name is Yuntao (Winston) Wu. I am currently a PhD student in Computer Engineering at University of Toronto, advised by [Dr. Andreas Veneris](https://www.eecg.utoronto.ca/~veneris/AndreasVeneris.htm){:target="_blank"}. I work as a research assistant at [Rotman FinHub](https://www.rotman.utoronto.ca/FacultyAndResearch/ResearchCentres/FinHub){:target="_blank"}. I graduated from University of British Columbia with a Bachelor of Applied Science in Computer Engineering, minor in Honors Mathematics.
+
+profile_image: "./img/img1.jpg"
+profile_image_href: "./img/img2.jpg"
+profile_image_width: "20%"
+
+social:
+  - name: Github
+    url: "https://github.com/yuntaowu2000"
+    icon: "fa-brands fa-github"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/yuntaowu936a3b179"
+    icon: "fa-brands fa-linkedin"
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=DYRJeLUAAAAJ&hl=en"
+    icon: "fa-brands fa-google"
+
+education:
+  - degree: "PhD in Computer Engineering"
+    school: "University of Toronto"
+    period: "Expected 2028"
+  - degree: "MASc in Computer Engineering"
+    school: "University of Toronto"
+    period: "2024"
+    gpa: "4.0/4.0"
+  - degree: "BASc in Computer Engineering, minor in Honors Mathematics"
+    school: "University of British Columbia"
+    period: "2022"
+    gpa: "91.8/100"
+
+awards:
+  - school: "University of Toronto"
+    items:
+      - name: "ECE Teaching Assistant Award"
+        detail: "2023–2024 Excellence in Undergraduate Teaching"
+      - name: "Ontario Graduate Scholarship"
+        period: "2023–2026"
+      - name: "Queen Elizabeth II Graduate Scholarship in Science & Technology"
+        period: "2022"
+      - name: "Edward S. Rogers Sr. Graduate Scholarships"
+        period: "2022, 2023"
+  - school: "University of British Columbia"
+    items:
+      - name: "Trek Excellence Scholarship"
+        period: "2019W–2021W"
+      - name: "Dean's Distinct"
+        period: "2021W"
+        notes:
+          - "Dean's Honor list (2018W–2021W)"
+      - name: "Pat and Betty Love Scholarship in Applied Science"
+        period: "2021W"
+      - name: "Martin Sikes Memorial Scholarship in Electrical and Computer Engineering"
+        period: "2020W"
+      - name: "EXPO 86 Scholarship"
+        period: "2019W"
+      - name: "PMC-Sierra Founders Award in Electrical and Computer Engineering"
+        period: "2019W"

@@ -1,0 +1,14 @@
+{% assign home = site.data.home %}
+
+<p>
+  <a href="{{ home.profile_image_href }}" target="_blank"><img src="{{ home.profile_image }}" align="right" width="{{ home.profile_image_width }}" alt="profile img" /></a>
+  {% include inline-text.html text=home.about %}
+</p>
+<br clear="left"/>
+
+<p class="home-social">
+  My
+  {% for link in home.social %}
+  <a href="{{ link.url }}" target="_blank"><i class="{{ link.icon }}"></i> {{ link.name }}</a>{% unless forloop.last %}, {% else %}.{% endunless %}
+  {% endfor %}
+</p>

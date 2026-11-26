@@ -1,0 +1,23 @@
+{% for group in site.data.home.awards %}
+### {{ group.school }}
+
+<ol class="home-list">
+{% for item in group.items %}
+  <li class="home-item">
+    <p class="home-item-name">{{ item.name }}</p>
+    <p class="home-item-meta">
+      {% if item.period %}{{ item.period }}{% endif %}
+      {% if item.period and item.detail %} · {% endif %}
+      {% if item.detail %}{{ item.detail }}{% endif %}
+    </p>
+    {% if item.notes %}
+    <ul class="home-item-notes">
+      {% for note in item.notes %}
+      <li>{% include inline-text.html text=note %}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endfor %}
